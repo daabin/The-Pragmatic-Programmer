@@ -1,7 +1,5 @@
 # The Pragmatic Programmer
 
-Source TOC: https://panzhongxian.cn/en/the-pragmatic-programmer/0_toc.html
-
 ## Chapters
 
 - [Foreword](<00 Foreword/README.md>)
