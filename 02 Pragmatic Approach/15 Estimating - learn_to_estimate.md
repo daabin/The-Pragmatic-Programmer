@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#learn_to_estimate
-
 <a id="learn_to_estimate"></a>
 ## Topic 15. Estimating
 
@@ -284,7 +282,7 @@ to haunt you.
 
 ### Related Sections Include
 
-- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate! - communicate.md#communicate>)
+- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate - communicate.md#communicate>)
 - Topic 39, [*Algorithm Speed*](<../07 While Coding/39 Algorithm Speed - algorithm_speed.md#algorithm_speed>)
 
 ### Challenges
@@ -333,32 +331,32 @@ So, which has the higher bandwidth?
 <a id="FOOTNOTE-22"></a>
 <a id="d24e5868"></a>
 <a id="FOOTNOTE-23"></a>
-[[13]](<Topic 8. The Essence of Good Design - essence_of_design.md#FNPTR-13>)To paraphrase the old Arlen/Mercer song…
+[[13]](<08 The Essence of Good Design - essence_of_design.md#FNPTR-13>)To paraphrase the old Arlen/Mercer song…
 
-[[14]](<Topic 8. The Essence of Good Design - essence_of_design.md#FNPTR-14>)Or, perhaps, to keep your sanity, every 10th time…
+[[14]](<08 The Essence of Good Design - essence_of_design.md#FNPTR-14>)Or, perhaps, to keep your sanity, every 10th time…
 
-[[15]](<Topic 9. DRY—The Evils of Duplication - dry.md#FNPTR-15>)<https://github.com/OAI/OpenAPI-Specification>
+[[15]](<09 DRY - The Evils of Duplication - dry.md#FNPTR-15>)<https://github.com/OAI/OpenAPI-Specification>
 
-[[16]](<Topic 10. Orthogonality - orthogonality.md#FNPTR-16>)In reality, this is naive. Unless you are remarkably lucky, most
+[[16]](<10 Orthogonality - orthogonality.md#FNPTR-16>)In reality, this is naive. Unless you are remarkably lucky, most
 real-world requirements changes will affect multiple functions in the
 system. However, if you analyze the change in terms of functions, each
 functional change should still ideally affect just one module.
 
-[[17]](<Topic 10. Orthogonality - orthogonality.md#FNPTR-17>)In fact, this book is written in Markdown, and typeset
+[[17]](<10 Orthogonality - orthogonality.md#FNPTR-17>)In fact, this book is written in Markdown, and typeset
 directly from the Markdown source.
 
-[[18]](<Topic 11. Reversibility - reversi.md#FNPTR-18>)Take a
+[[18]](<11 Reversibility - reversi.md#FNPTR-18>)Take a
 nonlinear, or chaotic, system and apply a small change to one of
 its inputs. You may get a large and often unpredictable result. The
 clichéd butterfly flapping its wings in Tokyo could be the start
 of a chain of events that ends up generating a tornado in Texas. Does this sound like any projects you know?
 
-[[19]](<Topic 14. Domain Languages - domain_languages.md#FNPTR-19>)<https://rspec.info>
+[[19]](<14 Domain Languages - domain_languages.md#FNPTR-19>)<https://rspec.info>
 
-[[20]](<Topic 14. Domain Languages - domain_languages.md#FNPTR-20>)<https://cucumber.io/>
+[[20]](<14 Domain Languages - domain_languages.md#FNPTR-20>)<https://cucumber.io/>
 
-[[21]](<Topic 14. Domain Languages - domain_languages.md#FNPTR-21>)<https://phoenixframework.org/>
+[[21]](<14 Domain Languages - domain_languages.md#FNPTR-21>)<https://phoenixframework.org/>
 
-[[22]](<Topic 14. Domain Languages - domain_languages.md#FNPTR-22>)<https://www.ansible.com/>
+[[22]](<14 Domain Languages - domain_languages.md#FNPTR-22>)<https://www.ansible.com/>
 
-[[23]](<Topic 14. Domain Languages - domain_languages.md#FNPTR-23>)<https://yaml.org/>
+[[23]](<14 Domain Languages - domain_languages.md#FNPTR-23>)<https://yaml.org/>

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html#stone_soup
-
 <a id="stone_soup"></a>
 ## Topic 4. Stone Soup and Boiled Frogs
 
@@ -66,7 +64,7 @@ if we added…'' Pretend it's not important. Sit back and wait
 for them to start asking you to add the functionality you originally
 wanted. People find it easier to join an ongoing success. Show them a
 glimpse of the future and you'll get them to rally
-around.[[7]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-7>)
+around.[[7]](<07 Communicate - communicate.md#FOOTNOTE-7>)
 
 **Tip 6: Be a Catalyst for Change**
 

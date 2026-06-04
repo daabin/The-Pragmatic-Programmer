@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#coincidence
-
 <a id="coincidence"></a>
 ## Topic 38. Programming by Coincidence
 
@@ -126,7 +124,7 @@ If you can't, for whatever reason, then document your assumption well.
 
 <a id="d24e19769"></a>
 <a id="FNPTR-50"></a>
-We once worked on a large project that reported on data fed from a very large number of hardware data collection units out in the field. These units spanned states and time zones, and for various logistical and historical reasons, each unit was set to local time.[[50]](<Topic 44. Naming Things - naming.md#FOOTNOTE-50>) As a result of conflicting time zone interpretations and inconsistencies in Daylight Savings Time policies, results were almost always wrong, but only off by one. The developers on the project had gotten into the habit of just adding one or subtracting one to get the correct answer, reasoning that it was only off by one in this one situation. And then the next function would see the value as off by the one the other way, and change it back.
+We once worked on a large project that reported on data fed from a very large number of hardware data collection units out in the field. These units spanned states and time zones, and for various logistical and historical reasons, each unit was set to local time.[[50]](<44 Naming Things - naming.md#FOOTNOTE-50>) As a result of conflicting time zone interpretations and inconsistencies in Daylight Savings Time policies, results were almost always wrong, but only off by one. The developers on the project had gotten into the habit of just adding one or subtracting one to get the correct answer, reasoning that it was only off by one in this one situation. And then the next function would see the value as off by the one the other way, and change it back.
 
 <a id="d24e19785"></a>
 But the fact that it was “only” off by one some of the time was a coincidence, masking a deeper and more fundamental flaw. Without a proper model of time handling, the entire large code base had devolved over time to an untenable mass of +1 and -1 statements. Ultimately, none of it was correct and the project was scrapped.
@@ -135,7 +133,7 @@ But the fact that it was “only” off by one some of the time was a coincidenc
 
 <a id="d24e19796"></a>
 <a id="FNPTR-51"></a>
-Human beings are designed to see patterns and causes, even when it's just a coincidence. For example, Russian leaders always alternate between being bald and hairy: a bald (or obviously balding) state leader of Russia has succeeded a non-bald (“hairy”) one, and vice versa, for nearly 200 years.[[51]](<Topic 44. Naming Things - naming.md#FOOTNOTE-51>)
+Human beings are designed to see patterns and causes, even when it's just a coincidence. For example, Russian leaders always alternate between being bald and hairy: a bald (or obviously balding) state leader of Russia has succeeded a non-bald (“hairy”) one, and vice versa, for nearly 200 years.[[51]](<44 Naming Things - naming.md#FOOTNOTE-51>)
 
 <a id="d24e19809"></a>
 But while you wouldn't write code that depended on the next Russian leader being bald or hairy, in some domains we think that way all the time. Gamblers imagine patterns in lottery numbers, dice games, or roulette, when in fact these are statistically independent events. In finance, stock and bond trading are similarly rife with coincidence instead of actual, discernible patterns.
@@ -163,7 +161,7 @@ Are you relying on network availability and speed?
 
 <a id="d24e19835"></a>
 <a id="FNPTR-52"></a>
-When you copied code from the first answer you found on the net, are you sure your context is the same? Or are you building “cargo cult” code, merely imitating form without content?[[52]](<Topic 44. Naming Things - naming.md#FOOTNOTE-52>)
+When you copied code from the first answer you found on the net, are you sure your context is the same? Or are you building “cargo cult” code, merely imitating form without content?[[52]](<44 Naming Things - naming.md#FOOTNOTE-52>)
 
 <a id="d24e19842"></a>
 Finding an answer that happens to fit is not the same as the right answer.
@@ -232,7 +230,7 @@ begin with. It helps if we can program deliberately:
   constrain what you do next—be ready to refactor (see
   Topic 40, [*Refactoring*](<40 Refactoring - refactor.md#refactor>)). This decision may impact the project schedule. The
   assumption is that the impact will be less than the cost of
-  not making the change.[[53]](<Topic 44. Naming Things - naming.md#FOOTNOTE-53>)
+  not making the change.[[53]](<44 Naming Things - naming.md#FOOTNOTE-53>)
 
 <a id="d24e20033"></a>
 So next time something seems to work, but you don't know why, make

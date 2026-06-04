@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html#text_manip
-
 <a id="text_manip"></a>
 ## Topic 21. Text Manipulation
 
@@ -15,7 +13,7 @@ text manipulation tool.
 <a id="d24e8678"></a>
 <a id="FNPTR-28"></a>
 Text manipulation languages are to programming what
-routers[[28]](<Topic 22. Engineering Daybooks - daybook.md#FOOTNOTE-28>)
+routers[[28]](<22 Engineering Daybooks - daybook.md#FOOTNOTE-28>)
 are to woodworking. They are noisy, messy, and somewhat brute force.
 Make mistakes with them, and entire pieces can be ruined. Some people
 swear they have no place in the toolbox. But in the right hands, both

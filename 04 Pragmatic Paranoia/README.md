@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/4_pragmatic_paranoia.html
+---
+sidebar_label: 4. Pragmatic Paranoia
+---
 
 ## Topics
 

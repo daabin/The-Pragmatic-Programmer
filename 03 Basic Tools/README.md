@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html
+---
+sidebar_label: 3. The Basic Tools
+---
 
 ## Topics
 

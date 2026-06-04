@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/4_pragmatic_paranoia.html#crash_early
-
 <a id="crash_early"></a>
 ## Topic 24. Dead Programs Tell No Lies
 

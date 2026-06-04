@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#prototyping
-
 <a id="prototyping"></a>
 ## Topic 13. Prototypes and Post-it Notes
 

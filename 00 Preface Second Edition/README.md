@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/preface_to_the_second_edition.html
+---
+sidebar_label: Preface to the Second Edition
+---
 
 ## Topics
 
@@ -47,7 +49,7 @@ In the end, we did both.
 
 <a id="d24e216"></a>
 <a id="FNPTR-1"></a>
-As a result, this book is something of a Ship of Theseus.[[1]](<Second Edition Acknowledgments - d24e337.md#FOOTNOTE-1>)
+As a result, this book is something of a Ship of Theseus.[[1]](<Second Edition Acknowledgments.md#FOOTNOTE-1>)
 Roughly one-third of the topics in the book are brand new. Of the rest,
 the majority have been rewritten, either partially or totally. Our
 intent was to make things clearer, more relevant, and hopefully somewhat

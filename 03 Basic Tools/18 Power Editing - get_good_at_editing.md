@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html#get_good_at_editing
-
 <a id="get_good_at_editing"></a>
 ## Topic 18. Power Editing
 
@@ -103,7 +101,7 @@ Sometimes you might take it further still, and you'll find yourself writing a fu
 
 ### Related Sections Include
 
-- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate! - communicate.md#communicate>)
+- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate - communicate.md#communicate>)
 
 ### Challenges
 

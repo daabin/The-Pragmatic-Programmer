@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/5_bend_or_break.html#function_pipelines
-
 <a id="function_pipelines"></a>
 ## Topic 30. Transforming Programming
 
@@ -197,7 +195,7 @@ end
 <a id="FNPTR-41"></a>
 Elixir, along with many other functional languages, has a pipeline
 operator, sometimes called a forward pipe or just
-a pipe.[[41]](<Topic 32. Configuration - configuration.md#FOOTNOTE-41>) All it does is take the value on its
+a pipe.[[41]](<32 Configuration - configuration.md#FOOTNOTE-41>) All it does is take the value on its
 left and insert it as the
 first parameter of the function on its right, so
 
@@ -453,7 +451,7 @@ end
 <a id="FNPTR-42"></a>
 There's no explicit error checking here, but if any step in the pipeline
 returns an error tuple then the pipeline will return that error without
-executing the functions that follow.[[42]](<Topic 32. Configuration - configuration.md#FOOTNOTE-42>) We do this using Elixir's
+executing the functions that follow.[[42]](<32 Configuration - configuration.md#FOOTNOTE-42>) We do this using Elixir's
 pattern matching:
 
 [function-pipelines/anagrams/lib/grep.ex](http://media.pragprog.com/titles/tpp20/code/function-pipelines/anagrams/lib/grep.ex)
@@ -527,7 +525,7 @@ it's still ugly.
 <a id="FNPTR-43"></a>
 It would be nice if Elixir had a version of the pipeline operator |>
 that knew about the :ok/:error tuples and which short-circuited
-execution when an error occurred.[[43]](<Topic 32. Configuration - configuration.md#FOOTNOTE-43>) But the fact that it
+execution when an error occurred.[[43]](<32 Configuration - configuration.md#FOOTNOTE-43>) But the fact that it
 doesn't allows us to add something similar, and in a way that is
 applicable to a number of other languages.
 

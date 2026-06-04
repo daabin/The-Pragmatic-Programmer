@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#proptest
-
 <a id="proptest"></a>
 ## Topic 42. Property-Based Testing
 

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/preface_to_the_second_edition.html#d24e337
-
 <a id="d24e337"></a>
 ## Second Edition Acknowledgments
 
@@ -42,4 +40,4 @@ years. Here's to twenty more.
 [[1]](<README.md#FNPTR-1>)If, over the years, every component of a ship is replaced as it
 fails, is the resulting vessel the same ship?
 
-[[2]](<Source Code and Other Resources - d24e309.md#FNPTR-2>)<https://pragprog.com/titles/tpp20>
+[[2]](<Source Code and Other Resources.md#FNPTR-2>)<https://pragprog.com/titles/tpp20>

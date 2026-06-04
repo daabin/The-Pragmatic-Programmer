@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/5_bend_or_break.html#configuration
-
 <a id="configuration"></a>
 ## Topic 32. Configuration
 
@@ -146,31 +144,31 @@ feedback on whether the decision was a good one.
 <a id="FOOTNOTE-44"></a>
 <a id="d24e16757"></a>
 <a id="FOOTNOTE-45"></a>
-[[37]](<Topic 28. Decoupling - coupling.md#FNPTR-37>)So it's not really a law. It's more like The Jolly Good Idea
+[[37]](<28 Decoupling - coupling.md#FNPTR-37>)So it's not really a law. It's more like The Jolly Good Idea
 of Demeter.
 
-[[38]](<Topic 28. Decoupling - coupling.md#FNPTR-38>)<https://media.pragprog.com/articles/jan_03_enbug.pdf>
+[[38]](<28 Decoupling - coupling.md#FNPTR-38>)<https://media.pragprog.com/articles/jan_03_enbug.pdf>
 
-[[39]](<Topic 29. Juggling the Real World - event.md#FNPTR-39>)Yes, we know that Ruby already has this capability with its
+[[39]](<29 Juggling the Real World - event.md#FNPTR-39>)Yes, we know that Ruby already has this capability with its
 at\_exit function.
 
-[[40]](<Topic 29. Juggling the Real World - event.md#FNPTR-40>)<https://media.pragprog.com/titles/tpp20/code/event/rxcommon/logger.js>
+[[40]](<29 Juggling the Real World - event.md#FNPTR-40>)<https://media.pragprog.com/titles/tpp20/code/event/rxcommon/logger.js>
 
-[[41]](<Topic 30. Transforming Programming - function_pipelines.md#FNPTR-41>)It seems that the first use of the characters |> as a pipe dates
+[[41]](<30 Transforming Programming - function_pipelines.md#FNPTR-41>)It seems that the first use of the characters |> as a pipe dates
 to 1994, in a discussion about the language Isobelle/ML,
 archived at
 <https://blogs.msdn.microsoft.com/dsyme/2011/05/17/archeological-semiotics-the-birth-of-the-pipeline-symbol-1994/>
 
-[[42]](<Topic 30. Transforming Programming - function_pipelines.md#FNPTR-42>)We've taken a liberty here. Technically we do execute the following
+[[42]](<30 Transforming Programming - function_pipelines.md#FNPTR-42>)We've taken a liberty here. Technically we do execute the following
 functions. We just don't execute the code in them.
 
-[[43]](<Topic 30. Transforming Programming - function_pipelines.md#FNPTR-43>)In fact you could add such an operator to Elixir using its
+[[43]](<30 Transforming Programming - function_pipelines.md#FNPTR-43>)In fact you could add such an operator to Elixir using its
 macro facility; an example of this is the Monad library in
 hex. You could also use Elixir's with construct, but then you lose
 much of the sense of writing transformations that you get with
 pipelines.
 
-[[44]](<Topic 31. Inheritance Tax - inheritance_tax.md#FNPTR-44>)<https://www.quora.com/What-does-Alan-Kay-think-about-inheritance-in-object-oriented-programming>
+[[44]](<31 Inheritance Tax - inheritance_tax.md#FNPTR-44>)<https://www.quora.com/What-does-Alan-Kay-think-about-inheritance-in-object-oriented-programming>
 
 [[45]](#FNPTR-45)It didn't help that the settlers beat the placid (read: stupid)
 birds to death with clubs for sport.

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/9_pragmatic_projects.html#do_what_works
-
 <a id="do_what_works"></a>
 ## Topic 50. Coconuts Don't Cut It
 

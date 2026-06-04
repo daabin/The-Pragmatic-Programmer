@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#orthogonality
-
 <a id="orthogonality"></a>
 ## Topic 10. Orthogonality
 
@@ -166,7 +164,7 @@ There is an easy test for orthogonal design. Once you have your
 components mapped out, ask yourself: If I dramatically change the
 requirements behind a particular function, how many modules are
 affected? In an orthogonal system, the answer should be
-“one.''[[16]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-16>) Moving a button on a GUI panel should not require a
+“one.''[[16]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-16>) Moving a button on a GUI panel should not require a
 change in the database schema. Adding context-sensitive help should not
 change the billing subsystem.
 
@@ -315,7 +313,7 @@ Perhaps surprisingly, orthogonality also applies to documentation. The
 axes are content and presentation. With truly orthogonal documentation,
 you should be able to change the appearance dramatically without
 changing the content. Word processors provide style sheets and
-macros that help. We personally prefer using a markup system such as Markdown: when writing we focus only on the content, and leave the presentation to whichever tool we use to render it.[[17]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-17>)
+macros that help. We personally prefer using a markup system such as Markdown: when writing we focus only on the content, and leave the presentation to whichever tool we use to render it.[[17]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-17>)
 
 ### Living with Orthogonality
 

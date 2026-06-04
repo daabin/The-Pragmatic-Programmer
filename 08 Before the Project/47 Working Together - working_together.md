@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/8_before_the_project.html#working_together
-
 <a id="working_together"></a>
 ## Topic 47. Working Together
 

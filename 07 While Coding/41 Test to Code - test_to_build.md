@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#test_to_build
-
 <a id="test_to_build"></a>
 ## Topic 41. Test to Code
 
@@ -139,7 +137,7 @@ There's a school of programming that says that, given all the benefits
 of thinking about tests up front, why not go ahead and write them up
 front too? They practice something called test-driven development or
 TDD. You'll also see this called
-test-first development.[[58]](<Topic 44. Naming Things - naming.md#FOOTNOTE-58>)
+test-first development.[[58]](<44 Naming Things - naming.md#FOOTNOTE-58>)
 
 <a id="d24e21420"></a>
 The basic cycle of TDD is:
@@ -234,11 +232,11 @@ solution.
 
 <a id="d24e21545"></a>
 <a id="FNPTR-59"></a>
-The old joke asks “How do you eat an elephant?” The punchline: “One bite at a time.” And this idea is often touted as a benefit of TDD. When you can't comprehend the whole problem, take small steps, one test at a time. However, this approach can mislead you, encouraging you to focus on and endlessly polish the easy problems while ignoring the real reason you're coding. An interesting example of this happened in 2006, when Ron Jeffries, a leading figure in the agility movement, started a series of blog posts which documented his test-driven coding of a Sudoko solver.[[59]](<Topic 44. Naming Things - naming.md#FOOTNOTE-59>) After five posts, he'd refined the representation of the underlying board, refactoring a number of times until he was happy with the object model. But then he abandoned the project. It's interesting to read the blog posts in order, and watch how a clever person can get sidetracked by the minutia, reinforced by the glow of passing tests.
+The old joke asks “How do you eat an elephant?” The punchline: “One bite at a time.” And this idea is often touted as a benefit of TDD. When you can't comprehend the whole problem, take small steps, one test at a time. However, this approach can mislead you, encouraging you to focus on and endlessly polish the easy problems while ignoring the real reason you're coding. An interesting example of this happened in 2006, when Ron Jeffries, a leading figure in the agility movement, started a series of blog posts which documented his test-driven coding of a Sudoko solver.[[59]](<44 Naming Things - naming.md#FOOTNOTE-59>) After five posts, he'd refined the representation of the underlying board, refactoring a number of times until he was happy with the object model. But then he abandoned the project. It's interesting to read the blog posts in order, and watch how a clever person can get sidetracked by the minutia, reinforced by the glow of passing tests.
 
 <a id="d24e21555"></a>
 <a id="FNPTR-60"></a>
-As a contrast, Peter Norvig describes an alternative approach[[60]](<Topic 44. Naming Things - naming.md#FOOTNOTE-60>) which feels very different in character: rather than being driven by tests, he starts with a basic understanding of how these kinds of problems are traditionally solved (using constraint propagation), and then focuses on refining his algorithm. He addresses board representation in a dozen lines of code that flow directly from his discussion of notation.
+As a contrast, Peter Norvig describes an alternative approach[[60]](<44 Naming Things - naming.md#FOOTNOTE-60>) which feels very different in character: rather than being driven by tests, he starts with a basic understanding of how these kinds of problems are traditionally solved (using constraint propagation), and then focuses on refining his algorithm. He addresses board representation in a dozen lines of code that flow directly from his discussion of notation.
 
 <a id="d24e21564"></a>
 Tests can definitely help drive development. But, as with every drive, unless you have a destination in mind, you can end up going in circles.
@@ -248,7 +246,7 @@ Tests can definitely help drive development. But, as with every drive, unless yo
 <a id="d24e21576"></a>
 <a id="FNPTR-61"></a>
 Component-based development has long been a lofty goal of software
-development.[[61]](<Topic 44. Naming Things - naming.md#FOOTNOTE-61>) The idea is that generic software components should
+development.[[61]](<44 Naming Things - naming.md#FOOTNOTE-61>) The idea is that generic software components should
 be available and combined just as easily as common integrated circuits
 (ICs) are combined. But this works only if the components you are using
 are known to be reliable, and if you have common voltages, interconnect

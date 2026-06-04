@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/foreword.html
+---
+sidebar_label: Foreword
+---
 
 # Foreword
 

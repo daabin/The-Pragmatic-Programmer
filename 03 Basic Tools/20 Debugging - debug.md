@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html#debug
-
 <a id="debug"></a>
 ## Topic 20. Debugging
 
@@ -297,7 +295,7 @@ now. Sometimes you need more—you need to watch the state of
 a program or a data structure over time. Seeing a stack trace can only
 tell you how you got here directly. It typically can't tell you what you were
 doing prior to this call chain, especially in event-based
-systems.[[25]](<Topic 22. Engineering Daybooks - daybook.md#FOOTNOTE-25>)
+systems.[[25]](<22 Engineering Daybooks - daybook.md#FOOTNOTE-25>)
 
 <a id="d24e8429"></a>
 Tracing statements are those little diagnostic messages you print to
@@ -331,7 +329,7 @@ should look over your shoulder at the screen, and nod his or her head
 constantly (like a rubber duck bobbing up and down in a bathtub). They
 do not need to say a word; the simple act of explaining, step by step,
 what the code is supposed to do often causes the problem to leap off the
-screen and announce itself.[[26]](<Topic 22. Engineering Daybooks - daybook.md#FOOTNOTE-26>)
+screen and announce itself.[[26]](<22 Engineering Daybooks - daybook.md#FOOTNOTE-26>)
 
 <a id="d24e8474"></a>
 <a id="FNPTR-27"></a>
@@ -340,7 +338,7 @@ you must explicitly state things that you may take for granted
 when going through the code yourself. By having to verbalize
 some of these assumptions, you may suddenly gain new insight into
 the problem. And if you don't have a person, a rubber duck, or teddy
-bear, or potted plant will do.[[27]](<Topic 22. Engineering Daybooks - daybook.md#FOOTNOTE-27>)
+bear, or potted plant will do.[[27]](<22 Engineering Daybooks - daybook.md#FOOTNOTE-27>)
 
 #### Process of Elimination
 

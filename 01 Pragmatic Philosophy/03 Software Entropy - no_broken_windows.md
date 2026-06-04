@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html#no_broken_windows
-
 <a id="no_broken_windows"></a>
 ## Topic 3. Software Entropy
 
@@ -36,7 +34,7 @@ In inner cities, some buildings are beautiful and clean, while others
 are rotting hulks. Why? Researchers in the field of crime and urban
 decay discovered a fascinating trigger mechanism, one that very
 quickly turns a clean, intact, inhabited building into a smashed and
-abandoned derelict.[[5]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-5>)
+abandoned derelict.[[5]](<07 Communicate - communicate.md#FOOTNOTE-5>)
 
 <a id="d24e1094"></a>
 A broken window.
@@ -52,7 +50,7 @@ the sense of abandonment becomes reality.
 
 <a id="d24e1098"></a>
 <a id="FNPTR-6"></a>
-Why would that make a difference? Psychologists have done studies[[6]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-6>)
+Why would that make a difference? Psychologists have done studies[[6]](<07 Communicate - communicate.md#FOOTNOTE-6>)
 that show hopelessness can be contagious. Think of the flu virus in close quarters. Ignoring a clearly broken situation reinforces the ideas that perhaps nothing can be fixed, that no one cares, all is doomed; all negative thoughts which can spread among team members, creating a vicious spiral.
 
 **Tip 5: Don't Live with Broken Windows**

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/4_pragmatic_paranoia.html#balance_resources
-
 <a id="balance_resources"></a>
 ## Topic 26. How to Balance Resources
 
@@ -53,7 +51,7 @@ seems to implement the logic we require—reading a record, updating
 the balance, and writing the record back out. However, this tidiness
 hides a major problem. The routines read\_customer and
 write\_customer are tightly
-coupled[[33]](<Topic 27. Don't Outrun Your Headlights - headlights.md#FOOTNOTE-33>)—they share
+coupled[[33]](<27 Don't Outrun Your Headlights - headlights.md#FOOTNOTE-33>)—they share
 the instance variable
 customer\_file. read\_customer opens the file
 and stores the file reference in customer\_file, and then write\_customer uses
@@ -129,7 +127,7 @@ def update_customer(transaction_amount)
 
 <a id="d24e10948"></a>
 <a id="FNPTR-34"></a>
-Instead of holding on to the file reference, we've changed the code to pass it as a parameter.[[34]](<Topic 27. Don't Outrun Your Headlights - headlights.md#FOOTNOTE-34>) Now all the responsibility for the file is in the
+Instead of holding on to the file reference, we've changed the code to pass it as a parameter.[[34]](<27 Don't Outrun Your Headlights - headlights.md#FOOTNOTE-34>) Now all the responsibility for the file is in the
 update\_customer routine. It opens the file and (finishing what
 it starts) closes it before returning. The routine balances the use of
 the file: the open and close are in the same place, and it is

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/5_bend_or_break.html#inheritance_tax
-
 <a id="inheritance_tax"></a>
 ## Topic 31. Inheritance Tax
 
@@ -50,7 +48,7 @@ link interface because they both contained the link code.
 <a id="FNPTR-44"></a>
 After Simula came Smalltalk. Alan Kay, one of the creators of Smalltalk,
 describes in a 2019 Quora
-answer[[44]](<Topic 32. Configuration - configuration.md#FOOTNOTE-44>)
+answer[[44]](<32 Configuration - configuration.md#FOOTNOTE-44>)
 why Smalltalk has inheritance:
 
 <a id="d24e15590"></a>

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/preface_to_the_second_edition.html#d24e281
-
 <a id="d24e281"></a>
 ## What's in a Name?
 

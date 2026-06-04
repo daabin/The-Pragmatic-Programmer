@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/9_pragmatic_projects.html#jane_austen
-
 <a id="jane_austen"></a>
 ## Topic 53. Pride and Prejudice
 
@@ -85,25 +83,25 @@ Thank you.
 <a id="FOOTNOTE-83"></a>
 <a id="d24e27553"></a>
 <a id="FOOTNOTE-84"></a>
-[[75]](<Topic 49. Pragmatic Teams - teams.md#FNPTR-75>)As team size grows, communication paths grow at the rate of
+[[75]](<49 Pragmatic Teams - teams.md#FNPTR-75>)As team size grows, communication paths grow at the rate of
 $O(n^2)$, where $n$ is the number of
 team members. On larger teams, communication begins to break down
 and becomes ineffective.
 
-[[76]](<Topic 49. Pragmatic Teams - teams.md#FNPTR-76>)A burnup chart is better for this than the more usual burndown chart. With a burnup chart, you can clearly see how the additional features move the goalposts.
+[[76]](<49 Pragmatic Teams - teams.md#FNPTR-76>)A burnup chart is better for this than the more usual burndown chart. With a burnup chart, you can clearly see how the additional features move the goalposts.
 
-[[77]](<Topic 49. Pragmatic Teams - teams.md#FNPTR-77>)The team speaks with one voice—externally. Internally, we strongly encourage lively, robust debate. Good developers tend to be passionate about their work.
+[[77]](<49 Pragmatic Teams - teams.md#FNPTR-77>)The team speaks with one voice—externally. Internally, we strongly encourage lively, robust debate. Good developers tend to be passionate about their work.
 
-[[78]](<Topic 49. Pragmatic Teams - teams.md#FNPTR-78>)Andy has met teams who conduct their daily Scrum standups on Fridays.
+[[78]](<49 Pragmatic Teams - teams.md#FNPTR-78>)Andy has met teams who conduct their daily Scrum standups on Fridays.
 
-[[79]](<Topic 50. Coconuts Don't Cut It - do_what_works.md#FNPTR-79>)See <https://en.wikipedia.org/wiki/Cargo_cult>.
+[[79]](<50 Coconuts Don't Cut It - do_what_works.md#FNPTR-79>)See <https://en.wikipedia.org/wiki/Cargo_cult>.
 
-[[80]](<Topic 51. Pragmatic Starter Kit - starter_kit.md#FNPTR-80>)We've seen this first-hand more times than you'd think.
+[[80]](<51 Pragmatic Starter Kit - starter_kit.md#FNPTR-80>)We've seen this first-hand more times than you'd think.
 
-[[81]](<Topic 51. Pragmatic Starter Kit - starter_kit.md#FNPTR-81>)<https://netflix.github.io/chaosmonkey>
+[[81]](<51 Pragmatic Starter Kit - starter_kit.md#FNPTR-81>)<https://netflix.github.io/chaosmonkey>
 
-[[82]](<Topic 51. Pragmatic Starter Kit - starter_kit.md#FNPTR-82>)For an interesting study of the correlation between test coverage and defects, see [*Mythical Unit Test Coverage* [ADSS18]](<../A2 Exercise Answers/README.md#d6040e2>).
+[[82]](<51 Pragmatic Starter Kit - starter_kit.md#FNPTR-82>)For an interesting study of the correlation between test coverage and defects, see [*Mythical Unit Test Coverage* [ADSS18]](<../A2 Exercise Answers/README.md#d6040e2>).
 
-[[83]](<Topic 51. Pragmatic Starter Kit - starter_kit.md#FNPTR-83>)Always remember Topic 3, [*Software Entropy*](<../01 Pragmatic Philosophy/03 Software Entropy - no_broken_windows.md#no_broken_windows>). Always.
+[[83]](<51 Pragmatic Starter Kit - starter_kit.md#FNPTR-83>)Always remember Topic 3, [*Software Entropy*](<../01 Pragmatic Philosophy/03 Software Entropy - no_broken_windows.md#no_broken_windows>). Always.
 
 [[84]](#FNPTR-84)<http://www.extremeprogramming.org>

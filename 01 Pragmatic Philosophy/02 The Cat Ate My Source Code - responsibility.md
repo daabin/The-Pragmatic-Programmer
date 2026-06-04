@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html#responsibility
-
 <a id="responsibility"></a>
 ## Topic 2. The Cat Ate My Source Code
 
@@ -28,7 +26,7 @@ ignorance and our mistakes.
 
 <a id="d24e926"></a>
 <a id="FNPTR-4"></a>
-Above all, your team needs to be able to trust and rely on you—and you need to be comfortable relying on each of them as well. Trust in a team is absolutely essential for creativity and collaboration according to the research literature.[[4]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-4>) In a healthy environment based in trust, you can safely speak your mind, present your ideas, and rely on your team members who can in turn rely on you.
+Above all, your team needs to be able to trust and rely on you—and you need to be comfortable relying on each of them as well. Trust in a team is absolutely essential for creativity and collaboration according to the research literature.[[4]](<07 Communicate - communicate.md#FOOTNOTE-4>) In a healthy environment based in trust, you can safely speak your mind, present your ideas, and rely on your team members who can in turn rely on you.
 Without trust, well…
 
 <a id="d24e963"></a>

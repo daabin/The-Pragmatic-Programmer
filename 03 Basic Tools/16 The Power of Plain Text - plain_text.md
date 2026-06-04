@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html#plain_text
-
 <a id="plain_text"></a>
 ## Topic 16. The Power of Plain Text
 
@@ -84,7 +82,7 @@ format in order to parse it successfully.
 <a id="d24e6988"></a>
 <a id="FNPTR-24"></a>
 Consider a data file from some legacy system that you are
-given.[[24]](<Topic 22. Engineering Daybooks - daybook.md#FOOTNOTE-24>) You know little about the original application; all
+given.[[24]](<22 Engineering Daybooks - daybook.md#FOOTNOTE-24>) You know little about the original application; all
 that's important to you is that it maintained a list of clients' Social
 Security numbers, which you need to find and extract. Among the data,
 you see

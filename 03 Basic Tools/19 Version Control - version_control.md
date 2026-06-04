@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html#version_control
-
 <a id="version_control"></a>
 ## Topic 19. Version Control
 

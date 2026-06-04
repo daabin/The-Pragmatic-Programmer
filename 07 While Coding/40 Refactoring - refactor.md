@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#refactor
-
 <a id="refactor"></a>
 ## Topic 40. Refactoring
 
@@ -18,7 +16,7 @@ Unfortunately, the most common metaphor for software development is
 building construction. Bertrand Meyer's classic work
 [*Object-Oriented Software Construction* [Mey97]](<../A2 Exercise Answers/README.md#d6040e783>) uses the term
 “Software Construction,” and even your humble authors edited the
-Software Construction column for IEEE Software in the early 2000s.[[55]](<Topic 44. Naming Things - naming.md#FOOTNOTE-55>)
+Software Construction column for IEEE Software in the early 2000s.[[55]](<44 Naming Things - naming.md#FOOTNOTE-55>)
 
 <a id="d24e20870"></a>
 But using construction as the
@@ -196,7 +194,7 @@ Clearly, refactoring is an activity that needs to be undertaken
 slowly, deliberately, and carefully. Martin Fowler
 offers the
 following simple tips on how to refactor without doing more harm than
-good:[[56]](<Topic 44. Naming Things - naming.md#FOOTNOTE-56>)
+good:[[56]](<44 Naming Things - naming.md#FOOTNOTE-56>)
 
 <a id="d24e21100"></a>
 <a id="d24e21103"></a>
@@ -210,7 +208,7 @@ good:[[56]](<Topic 44. Naming Things - naming.md#FOOTNOTE-56>)
    split a method, rename a variable. Refactoring often
    involves making many localized changes that result in a larger-scale
    change. If you keep your steps small, and test after each step, you
-   will avoid prolonged debugging.[[57]](<Topic 44. Naming Things - naming.md#FOOTNOTE-57>)
+   will avoid prolonged debugging.[[57]](<44 Naming Things - naming.md#FOOTNOTE-57>)
 
 <a id="d24e21149"></a>
 <a id="d24e21166"></a>

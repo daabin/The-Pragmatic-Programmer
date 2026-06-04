@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/9_pragmatic_projects.html#delight
-
 <a id="delight"></a>
 ## Topic 52. Delight Your Users
 

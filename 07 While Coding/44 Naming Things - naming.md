@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#naming
-
 <a id="naming"></a>
 ## Topic 44. Naming Things
 
@@ -276,51 +274,51 @@ getData really writes data to a file, and you'll have to do it with a straight f
 <a id="FOOTNOTE-68"></a>
 <a id="d24e24054"></a>
 <a id="FOOTNOTE-69"></a>
-[[50]](<Topic 38. Programming by Coincidence - coincidence.md#FNPTR-50>)Note from the battle-scarred: UTC is there for a reason. Use it.
+[[50]](<38 Programming by Coincidence - coincidence.md#FNPTR-50>)Note from the battle-scarred: UTC is there for a reason. Use it.
 
-[[51]](<Topic 38. Programming by Coincidence - coincidence.md#FNPTR-51>)<https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation>
+[[51]](<38 Programming by Coincidence - coincidence.md#FNPTR-51>)<https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation>
 
-[[52]](<Topic 38. Programming by Coincidence - coincidence.md#FNPTR-52>)See Topic 50, [*Coconuts Don't Cut It*](<../09 Pragmatic Projects/50 Coconuts Don't Cut It - do_what_works.md#do_what_works>).
+[[52]](<38 Programming by Coincidence - coincidence.md#FNPTR-52>)See Topic 50, [*Coconuts Don't Cut It*](<../09 Pragmatic Projects/50 Coconuts Don't Cut It - do_what_works.md#do_what_works>).
 
-[[53]](<Topic 38. Programming by Coincidence - coincidence.md#FNPTR-53>)You can also go too far here. We once knew a developer who rewrote all source he was given because he had his own naming conventions.
+[[53]](<38 Programming by Coincidence - coincidence.md#FNPTR-53>)You can also go too far here. We once knew a developer who rewrote all source he was given because he had his own naming conventions.
 
-[[54]](<Topic 39. Algorithm Speed - algorithm_speed.md#FNPTR-54>)<https://media-origin.pragprog.com/titles/tpp20/code/algorithm_speed/sort/src/main.rs>
+[[54]](<39 Algorithm Speed - algorithm_speed.md#FNPTR-54>)<https://media-origin.pragprog.com/titles/tpp20/code/algorithm_speed/sort/src/main.rs>
 
-[[55]](<Topic 40. Refactoring - refactor.md#FNPTR-55>)And yes, we did voice our concerns over the title.
+[[55]](<40 Refactoring - refactor.md#FNPTR-55>)And yes, we did voice our concerns over the title.
 
-[[56]](<Topic 40. Refactoring - refactor.md#FNPTR-56>)Originally spotted in [*UML Distilled: A Brief Guide to the Standard Object Modeling Language* [Fow00]](<../A2 Exercise Answers/README.md#d6040e349>).
+[[56]](<40 Refactoring - refactor.md#FNPTR-56>)Originally spotted in [*UML Distilled: A Brief Guide to the Standard Object Modeling Language* [Fow00]](<../A2 Exercise Answers/README.md#d6040e349>).
 
-[[57]](<Topic 40. Refactoring - refactor.md#FNPTR-57>)This is excellent advice in general (see Topic 27, [*Don't Outrun Your Headlights*](<../04 Pragmatic Paranoia/27 Don't Outrun Your Headlights - headlights.md#headlights>)).
+[[57]](<40 Refactoring - refactor.md#FNPTR-57>)This is excellent advice in general (see Topic 27, [*Don't Outrun Your Headlights*](<../04 Pragmatic Paranoia/27 Don't Outrun Your Headlights - headlights.md#headlights>)).
 
-[[58]](<Topic 41. Test to Code - test_to_build.md#FNPTR-58>)Some folks argue that test-first and test-driven development
+[[58]](<41 Test to Code - test_to_build.md#FNPTR-58>)Some folks argue that test-first and test-driven development
 are two different things, saying that the intents of
 the two are different. However, historically, test-first (which
 comes from eXtreme Programming) was identical to what people now
 call TDD.
 
-[[59]](<Topic 41. Test to Code - test_to_build.md#FNPTR-59>)<https://ronjeffries.com/categories/sudoku>. A big “thank you” to Ron for letting us use this story.
+[[59]](<41 Test to Code - test_to_build.md#FNPTR-59>)<https://ronjeffries.com/categories/sudoku>. A big “thank you” to Ron for letting us use this story.
 
-[[60]](<Topic 41. Test to Code - test_to_build.md#FNPTR-60>)<http://norvig.com/sudoku.html>
+[[60]](<41 Test to Code - test_to_build.md#FNPTR-60>)<http://norvig.com/sudoku.html>
 
-[[61]](<Topic 41. Test to Code - test_to_build.md#FNPTR-61>)We've been trying since at least 1986, when Cox and Novobilski
+[[61]](<41 Test to Code - test_to_build.md#FNPTR-61>)We've been trying since at least 1986, when Cox and Novobilski
 coined the term “software IC” in their Objective-C book
 Object-Oriented Programming [*Object-Oriented Programming: An Evolutionary Approach* [CN91]](<../A2 Exercise Answers/README.md#d6040e197>).
 
-[[62]](<Topic 43. Stay Safe Out There - safety.md#FNPTR-62>)See Topic 20, [*Debugging*](<../03 Basic Tools/20 Debugging - debug.md#debug>).
+[[62]](<43 Stay Safe Out There - safety.md#FNPTR-62>)See Topic 20, [*Debugging*](<../03 Basic Tools/20 Debugging - debug.md#debug>).
 
-[[63]](<Topic 43. Stay Safe Out There - safety.md#FNPTR-63>)Remember our good friend, little Bobby Tables
+[[63]](<43 Stay Safe Out There - safety.md#FNPTR-63>)Remember our good friend, little Bobby Tables
 (<https://xkcd.com/327>)? While you're reminiscing have a
 look at <https://bobby-tables.com>, which lists ways of
 sanitizing data passed to database queries.
 
-[[64]](<Topic 43. Stay Safe Out There - safety.md#FNPTR-64>)This technique has proven to be successful at the CPU chip
+[[64]](<43 Stay Safe Out There - safety.md#FNPTR-64>)This technique has proven to be successful at the CPU chip
 level, where
 well-known exploits target debugging and administrative facilities.
 Once cracked, the entire machine is left exposed.
 
-[[65]](<Topic 43. Stay Safe Out There - safety.md#FNPTR-65>)NIST Special Publication 800-63B: Digital Identity Guidelines: Authentication and Lifecycle Management, available free online at <https://doi.org/10.6028/NIST.SP.800-63b>
+[[65]](<43 Stay Safe Out There - safety.md#FNPTR-65>)NIST Special Publication 800-63B: Digital Identity Guidelines: Authentication and Lifecycle Management, available free online at <https://doi.org/10.6028/NIST.SP.800-63b>
 
-[[66]](<Topic 43. Stay Safe Out There - safety.md#FNPTR-66>)Unless you have a PhD in cryptography, and even then only with major peer review, extensive field trials with a bug bounty, and budget for long-term maintenance.
+[[66]](<43 Stay Safe Out There - safety.md#FNPTR-66>)Unless you have a PhD in cryptography, and even then only with major peer review, extensive field trials with a bug bounty, and budget for long-term maintenance.
 
 [[67]](#FNPTR-67)[*Studies of Interference in Serial Verbal Reactions* [Str35]](<../A2 Exercise Answers/README.md#d6040e892>)
 

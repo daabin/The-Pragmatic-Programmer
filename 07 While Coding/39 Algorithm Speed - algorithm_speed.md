@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#algorithm_speed
-
 <a id="algorithm_speed"></a>
 ## Topic 39. Algorithm Speed
 
@@ -52,54 +50,56 @@ notation comes in handy.
 ### Big-O Notation
 
 <a id="d24e20193"></a>
-The Big-O notation, written $ O() $, is a mathematical way of dealing with
-approximations. When we write that a particular sort routine sorts $ O() $
-records in $ O(n^2) $ time, we are simply saying that the worst-case
+The Big-O notation, written `O()`, is a mathematical way of dealing with
+approximations. When we write that a particular sort routine sorts `O()`
+records in `O(n^2)` time, we are simply saying that the worst-case
 time taken will vary as the square of $ n $. Double the number of
 records, and the time will increase roughly fourfold. Think of the $ O $
 as meaning on the order of.
 
 <a id="d24e20210"></a>
-The $ O() $ notation puts an upper
+The `O()` notation puts an upper
 bound on the value of the thing we're measuring (time, memory, and so
-on). If we say a function takes $ O(n^2) $ time, then we know that the
+on). If we say a function takes `O(n^2)` time, then we know that the
 upper bound of the time it takes will not grow faster than $ n^2 $.
-Sometimes we come up with fairly complex $ O() $ functions, but because
+Sometimes we come up with fairly complex `O()` functions, but because
 the highest-order term will dominate the value as $ n $ increases, the
 convention is to remove all low-order terms, and not to bother showing
 any constant multiplying factors:
 
-$$ O(\frac{n^2}{2} + 3n)\,is\,the\,same\,as\,O(\frac{n^2}{2})\,is\,the\,same\,as\,O(n^2) $$
+```text
+O(n^2 / 2 + 3n) is the same as O(n^2 / 2) is the same as O(n^2)
+```
 
 <a id="d24e20233"></a>
 This is
-actually a feature of the $ O() $ notation—one $ O(n^2) $ algorithm may
-be 1,000 times faster than another $ O(n^2) $ algorithm, but you won't
+actually a feature of the `O()` notation—one `O(n^2)` algorithm may
+be 1,000 times faster than another `O(n^2)` algorithm, but you won't
 know it from the notation. Big-O is never going to give you actual
 numbers for time or memory or whatever: it simply tells you how these
 values will change as the input changes.
 
 <a id="d24e20241"></a>
-Figure 3, [*Runtimes of various algorithms*](#fig-onotation) shows several common $ O() $
+Figure 3, [*Runtimes of various algorithms*](#fig-onotation) shows several common `O()`
 notations you'll come across, along with a graph comparing running times of
 algorithms in each category. Clearly, things quickly start getting
-out of hand once we get over $ O(n^2) $.
+out of hand once we get over `O(n^2)`.
 
 <a id="d24e20248"></a>
 For example, suppose you've got a routine that takes one second to
 process 100 records. How long will it take to process 1,000? If your
-code is $ O(1) $, then it will still take one second. If it's
-$ O(\lg{n})$, then you'll probably be waiting about three
-seconds. $ O(n) $ will show a linear increase to ten seconds,
-while an $ O(n\,lg{n}) $ will take some 33 seconds. If
-you're unlucky enough to have an $ O(n^2) $ routine, then sit
+code is `O(1)`, then it will still take one second. If it's
+`O(log n)`, then you'll probably be waiting about three
+seconds. `O(n)` will show a linear increase to ten seconds,
+while an `O(n log n)` will take some 33 seconds. If
+you're unlucky enough to have an `O(n^2)` routine, then sit
 back for 100 seconds while it does its stuff. And if you're using
-an exponential algorithm $ O(2^n) $, you might want to make a
-cup of coffee—your routine should finish in about $ 10^263 $
+an exponential algorithm `O(2^n)`, you might want to make a
+cup of coffee—your routine should finish in about `10^263`
 years. Let us know how the universe ends.
 
 <a id="d24e20357"></a>
-The $O()$ notation doesn't apply just to time; you can use it to
+The `O()` notation doesn't apply just to time; you can use it to
 represent any other resources used by an algorithm. For example, it
 is often useful to be able to model memory consumption (see the
 exercises for an example).
@@ -110,10 +110,10 @@ exercises for an example).
 |  |  |
 | --- | --- |
 | $O(1)$ | Constant (access element in array, simple statements) |
-| $O(\lg{n})$ | Logarithmic (binary search). The base of the logarithm doesn't matter, so this is equivalent $O(\log{n})$. |
+| `O(log n)` | Logarithmic (binary search). The base of the logarithm doesn't matter, so this is equivalent $O(\log{n})$. |
 | $O(n)$ | Linear (sequential search) |
 | $O(n\,\lg{n})$ | Worse than linear, but not much worse. (Average runtime of quicksort, heapsort) |
-| $O(n^2)$ | Square law (selection and insertion sorts) |
+| `O(n^2)` | Square law (selection and insertion sorts) |
 | $O(n^3)$ | Cubic (multiplication of two $n \times n$ matrices) |
 | $O(C^n)$ | Exponential (traveling salesman problem, set partitioning) |
 
@@ -148,14 +148,14 @@ Nested loops
     such as bubble sort, where the outer loop scans each element in the
     array in turn, and the inner loop works out where to place that
     element in the sorted result. Such sorting algorithms tend to be
-    $O(n^2)$.
+    `O(n^2)`.
 
 Binary chop
 :   If your algorithm halves the set of things it
     considers each time around the loop, then it is likely to be
-    logarithmic, $O(\lg{n})$. A binary search of a sorted list, traversing a
+    logarithmic, `O(log n)`. A binary search of a sorted list, traversing a
     binary tree, and finding the first set bit in a machine word can all
-    be $O(\lg{n})$.
+    be `O(log n)`.
 
 Divide and conquer
 :   Algorithms that partition their input
@@ -163,7 +163,7 @@ Divide and conquer
     can be $O(n\,\lg{n})$. The classic example is quicksort,
     which works
     by partitioning the data into two halves and recursively sorting
-    each. Although technically $O(n^2)$, because its behavior degrades
+    each. Although technically `O(n^2)`, because its behavior degrades
     when it is fed sorted input, the average runtime of quicksort is
     $O(n\,\lg{n})$.
 
@@ -204,7 +204,7 @@ may have on your running time or memory consumption.
 
 <a id="d24e20608"></a>
 There are some approaches you can take to address potential problems.
-If you have an algorithm that is $O(n^2)$, try to find a divide-and-conquer approach that will take you down to $O(n\lg{n})$.
+If you have an algorithm that is `O(n^2)`, try to find a divide-and-conquer approach that will take you down to `O(n log n)`.
 
 <a id="d24e20618"></a>
 If you're not sure how long your code will take, or how much memory it
@@ -217,10 +217,10 @@ or four points should give you an idea.
 
 <a id="d24e20624"></a>
 Also consider just what you're doing in the code itself. A simple
-$O(n^2)$ loop may well perform better than a complex,
-$O(n\lg{n})$
+`O(n^2)` loop may well perform better than a complex,
+`O(n log n)`
 one for smaller values of $n$, particularly if the
-$O(n\lg{n})$
+`O(n log n)`
 algorithm has an expensive inner loop.
 
 <a id="d24e20634"></a>
@@ -295,7 +295,7 @@ precious time trying to improve it.
 <a id="d24e20757"></a>
 <a id="FNPTR-54"></a>
 We coded a set of simple sort
-routines[[54]](<Topic 44. Naming Things - naming.md#FOOTNOTE-54>) in
+routines[[54]](<44 Naming Things - naming.md#FOOTNOTE-54>) in
 Rust. Run them on various machines available to you. Do your figures
 follow the expected curves? What can you deduce about the relative
 speeds of your machines? What are the effects of various compiler
@@ -306,11 +306,11 @@ optimization settings?
 
 <a id="d24e20786"></a>
 In [*Common Sense Estimation*](#pg-common-sense), we claimed that a binary
-chop is $O(\lg{n})$. Can you prove this?
+chop is `O(log n)`. Can you prove this?
 
 <a id="exercise-30"></a>
 **Exercise 30** ([possible answer](<../A2 Exercise Answers/README.md#answer-30>))
 
 <a id="d24e20802"></a>
 In Figure 3, [*Runtimes of various algorithms*](#fig-onotation), we claimed that
-$O(\lg{n})$ is the same as $O(\log\_10{n})$ (or indeed logarithms to any base). Can you explain why?
+`O(log n)` is the same as `O(log10 n)` (or indeed logarithms to any base). Can you explain why?

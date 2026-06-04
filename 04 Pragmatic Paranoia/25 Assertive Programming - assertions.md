@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/4_pragmatic_paranoia.html#assertions
-
 <a id="assertions"></a>
 ## Topic 25. Assertive Programming
 
@@ -29,7 +27,7 @@ coding.
 
 <a id="d24e10215"></a>
 <a id="FNPTR-31"></a>
-Whenever you find yourself thinking “but of course that could never happen,” add code to check it. The easiest way to do this is with assertions. In many language implementations, you'll find some form of assert that checks a Boolean condition.[[31]](<Topic 27. Don't Outrun Your Headlights - headlights.md#FOOTNOTE-31>) These checks can be invaluable. If a parameter or a result should never be null, then check for it explicitly:
+Whenever you find yourself thinking “but of course that could never happen,” add code to check it. The easiest way to do this is with assertions. In many language implementations, you'll find some form of assert that checks a Boolean condition.[[31]](<27 Don't Outrun Your Headlights - headlights.md#FOOTNOTE-31>) These checks can be invaluable. If a parameter or a result should never be null, then check for it explicitly:
 
 ```
 assert (result != null);
@@ -103,7 +101,7 @@ while (iter.hasMoreElements()) {
 <a id="d24e10421"></a>
 <a id="FNPTR-32"></a>
 This problem is a kind of
-Heisenbug[[32]](<Topic 27. Don't Outrun Your Headlights - headlights.md#FOOTNOTE-32>)—debugging
+Heisenbug[[32]](<27 Don't Outrun Your Headlights - headlights.md#FOOTNOTE-32>)—debugging
 that changes the
 behavior of the system being debugged.
 

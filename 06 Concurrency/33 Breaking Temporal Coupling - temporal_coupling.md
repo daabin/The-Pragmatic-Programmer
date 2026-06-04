@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/6_concurrency.html#temporal_coupling
-
 <a id="temporal_coupling"></a>
 ## Topic 33. Breaking Temporal Coupling
 
@@ -45,7 +43,7 @@ On many projects, we need to model and analyze the application workflows
 as part of the design. We'd like to find out what can happen at the
 same time, and what must happen in a strict order. One way to do this
 is to capture the workflow using a notation such as the activity
-diagram.[[46]](<Topic 36. Blackboards - blackboards.md#FOOTNOTE-46>)
+diagram.[[46]](<36 Blackboards - blackboards.md#FOOTNOTE-46>)
 
 **Tip 56: Analyze Workflow to Improve Concurrency**
 

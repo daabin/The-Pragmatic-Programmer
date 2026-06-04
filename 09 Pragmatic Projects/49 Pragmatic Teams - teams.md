@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/9_pragmatic_projects.html#teams
-
 <a id="teams"></a>
 ## Topic 49. Pragmatic Teams
 
@@ -117,7 +115,7 @@ Learning and skill improvements
 <a id="d24e26109"></a>
 It's obvious that developers in a team must talk to each other. We
 gave some suggestions to facilitate this in
-Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate! - communicate.md#communicate>). However, it's
+Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate - communicate.md#communicate>). However, it's
 easy to forget that the team itself has a presence within the
 organization. The team as an entity needs to communicate clearly with
 the rest of the world.
@@ -221,7 +219,7 @@ add more paint.
 ### Related Sections Include
 
 - Topic 2, [*The Cat Ate My Source Code*](<../01 Pragmatic Philosophy/02 The Cat Ate My Source Code - responsibility.md#responsibility>)
-- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate! - communicate.md#communicate>)
+- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate - communicate.md#communicate>)
 - Topic 12, [*Tracer Bullets*](<../02 Pragmatic Approach/12 Tracer Bullets - tracer_bullets.md#tracer_bullets>)
 - Topic 19, [*Version Control*](<../03 Basic Tools/19 Version Control - version_control.md#version_control>)
 - Topic 50, [*Coconuts Don't Cut It*](<50 Coconuts Don't Cut It - do_what_works.md#do_what_works>)

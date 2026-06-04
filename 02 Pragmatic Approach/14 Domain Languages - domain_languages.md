@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#domain_languages
-
 <a id="domain_languages"></a>
 ## Topic 14. Domain Languages
 
@@ -35,7 +33,7 @@ Let's look at a few examples where folks have done just that.
 
 <a id="d24e5647"></a>
 <a id="FNPTR-19"></a>
-RSpec[[19]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-19>) is a testing library for Ruby. It inspired
+RSpec[[19]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-19>) is a testing library for Ruby. It inspired
 versions for most other modern languages. A test in RSpec is intended to
 reflect the behavior you expect from your code.
 
@@ -53,7 +51,7 @@ end
 
 <a id="d24e5701"></a>
 <a id="FNPTR-20"></a>
-Cucumber[[20]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-20>) is programming-language neutral way of
+Cucumber[[20]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-20>) is programming-language neutral way of
 specifying tests. You run the tests using a version of Cucumber
 appropriate to the language you're using. In order to support the
 natural-language like syntax, you also have to write specific matchers
@@ -105,7 +103,7 @@ where their real needs will surface.
 <a id="FNPTR-21"></a>
 Many web frameworks have a routing facility, mapping incoming HTTP
 requests onto handler functions in the code. Here's an example from
-Phoenix.[[21]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-21>)
+Phoenix.[[21]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-21>)
 
 ```
 scope "/", HelloPhoenix do
@@ -128,11 +126,11 @@ accessible via the url /users.
 <a id="d24e5860"></a>
 <a id="FNPTR-22"></a>
 <a id="FNPTR-23"></a>
-Ansible[[22]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-22>) is a tool that configures software,
+Ansible[[22]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-22>) is a tool that configures software,
 typically on a bunch of remote servers. It does this by reading a
 specification that you provide, then doing whatever is needed on the
 servers to make them mirror that spec. The specification can be written
-in YAML,[[23]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-23>) a language that builds data structures
+in YAML,[[23]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-23>) a language that builds data structures
 from text descriptions:
 
 ```

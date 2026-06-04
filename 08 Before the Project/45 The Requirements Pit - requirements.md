@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/8_before_the_project.html#requirements
-
 <a id="requirements"></a>
 ## Topic 45. The Requirements Pit
 
@@ -212,7 +210,7 @@ There's a simple technique for getting inside your clients' heads
 that isn't used often enough: become a client. Are you writing a system
 for the help desk? Spend a couple of days monitoring the phones with
 an experienced support person. Are you automating a manual stock
-control system? Work in the warehouse for a week.[[70]](<Topic 48. The Essence of Agility - essence_of_agility.md#FOOTNOTE-70>)
+control system? Work in the warehouse for a week.[[70]](<48 The Essence of Agility - essence_of_agility.md#FOOTNOTE-70>)
 
 <a id="d24e24579"></a>
 As well as giving
@@ -265,7 +263,7 @@ of the type of thing the system needs to support.
 <a id="d24e24639"></a>
 <a id="FNPTR-71"></a>
 In a January 1999 Wired
-magazine article,[[71]](<Topic 48. The Essence of Agility - essence_of_agility.md#FOOTNOTE-71>) producer and musician
+magazine article,[[71]](<48 The Essence of Agility - essence_of_agility.md#FOOTNOTE-71>) producer and musician
 Brian Eno described an incredible piece of technology—the ultimate
 mixing board. It does anything to sound that can be done. And yet,
 instead of letting musicians make better music, or produce a recording
@@ -430,7 +428,7 @@ different things by the same name.
 ### Related Sections Include
 
 - Topic 5, [*Good-Enough Software*](<../01 Pragmatic Philosophy/05 Good-Enough Software - good_enough_sw.md#good_enough_sw>)
-- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate! - communicate.md#communicate>)
+- Topic 7, [*Communicate!*](<../01 Pragmatic Philosophy/07 Communicate - communicate.md#communicate>)
 - Topic 11, [*Reversibility*](<../02 Pragmatic Approach/11 Reversibility - reversi.md#reversi>)
 - Topic 13, [*Prototypes and Post-it Notes*](<../02 Pragmatic Approach/13 Prototypes and Post-it Notes - prototyping.md#prototyping>)
 - Topic 23, [*Design by Contract*](<../04 Pragmatic Paranoia/23 Design by Contract - dbc.md#dbc>)

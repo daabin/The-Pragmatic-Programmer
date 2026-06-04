@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html#daybook
-
 <a id="daybook"></a>
 ## Topic 22. Engineering Daybooks
 
@@ -79,20 +77,20 @@ and famous.
 <a id="FOOTNOTE-28"></a>
 <a id="d24e8908"></a>
 <a id="FOOTNOTE-29"></a>
-[[24]](<Topic 16. The Power of Plain Text - plain_text.md#FNPTR-24>)All software becomes legacy software as soon as it's written.
+[[24]](<16 The Power of Plain Text - plain_text.md#FNPTR-24>)All software becomes legacy software as soon as it's written.
 
-[[25]](<Topic 20. Debugging - debug.md#FNPTR-25>)Although the Elm language does have a time-traveling debugger.
+[[25]](<20 Debugging - debug.md#FNPTR-25>)Although the Elm language does have a time-traveling debugger.
 
-[[26]](<Topic 20. Debugging - debug.md#FNPTR-26>)Why “rubber ducking''? While an undergraduate at Imperial College
+[[26]](<20 Debugging - debug.md#FNPTR-26>)Why “rubber ducking''? While an undergraduate at Imperial College
 in London, Dave did a lot of work with a research assistant named
 Greg Pugh, one of the best developers Dave has known. For several
 months Greg carried around a small yellow rubber duck, which he'd
 place on his terminal while coding. It was a while before Dave had the courage to ask….
 
-[[27]](<Topic 20. Debugging - debug.md#FNPTR-27>)Earlier versions of the book talked about talking to your pot
+[[27]](<20 Debugging - debug.md#FNPTR-27>)Earlier versions of the book talked about talking to your pot
 plant. It was a typo. Honest.
 
-[[28]](<Topic 21. Text Manipulation - text_manip.md#FNPTR-28>)Here router means the tool that spins cutting
+[[28]](<21 Text Manipulation - text_manip.md#FNPTR-28>)Here router means the tool that spins cutting
 blades very, very fast, not a device for interconnecting networks.
 
 [[29]](#FNPTR-29)There is some evidence that doodling helps focus and improves cognitive skills, for example, see [*What does doodling do?* [And10]](<../A2 Exercise Answers/README.md#d6040e55>).

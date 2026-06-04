@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html#communicate
-
 <a id="communicate"></a>
 ## Topic 7. Communicate!
 
@@ -302,23 +300,23 @@ report.
 <a id="FOOTNOTE-11"></a>
 <a id="d24e2119"></a>
 <a id="FOOTNOTE-12"></a>
-[[3]](<Topic 1. It's Your Life - its_your_life.md#FNPTR-3>)<http://wiki.c2.com/?ChangeYourOrganization>
+[[3]](<01 It's Your Life - its_your_life.md#FNPTR-3>)<http://wiki.c2.com/?ChangeYourOrganization>
 
-[[4]](<Topic 2. The Cat Ate My Source Code - responsibility.md#FNPTR-4>)See, for example, a good meta-analysis at Trust and team performance: A meta-analysis of main effects, moderators, and covariates, <http://dx.doi.org/10.1037/apl0000110>
+[[4]](<02 The Cat Ate My Source Code - responsibility.md#FNPTR-4>)See, for example, a good meta-analysis at Trust and team performance: A meta-analysis of main effects, moderators, and covariates, <http://dx.doi.org/10.1037/apl0000110>
 
-[[5]](<Topic 3. Software Entropy - no_broken_windows.md#FNPTR-5>)See [*The police and neighborhood safety* [WH82]](<../A2 Exercise Answers/README.md#d6040e1004>)
+[[5]](<03 Software Entropy - no_broken_windows.md#FNPTR-5>)See [*The police and neighborhood safety* [WH82]](<../A2 Exercise Answers/README.md#d6040e1004>)
 
-[[6]](<Topic 3. Software Entropy - no_broken_windows.md#FNPTR-6>)See [*Contagious depression: Existence, specificity to depressed symptoms, and the role of reassurance seeking* [Joi94]](<../A2 Exercise Answers/README.md#d6040e572>)
+[[6]](<03 Software Entropy - no_broken_windows.md#FNPTR-6>)See [*Contagious depression: Existence, specificity to depressed symptoms, and the role of reassurance seeking* [Joi94]](<../A2 Exercise Answers/README.md#d6040e572>)
 
-[[7]](<Topic 4. Stone Soup and Boiled Frogs - stone_soup.md#FNPTR-7>)While doing this, you may be comforted by the line attributed to Rear Admiral Dr. Grace Hopper: “It's easier to ask forgiveness than it is to get permission.''
+[[7]](<04 Stone Soup and Boiled Frogs - stone_soup.md#FNPTR-7>)While doing this, you may be comforted by the line attributed to Rear Admiral Dr. Grace Hopper: “It's easier to ask forgiveness than it is to get permission.''
 
-[[8]](<Topic 5. Good-Enough Software - good_enough_sw.md#FNPTR-8>)That was supposed to be a joke!
+[[8]](<05 Good-Enough Software - good_enough_sw.md#FNPTR-8>)That was supposed to be a joke!
 
-[[9]](<Topic 6. Your Knowledge Portfolio - knowledge.md#FNPTR-9>)An expiring asset is something whose value diminishes over time. Examples include a warehouse full of bananas and a ticket to a ball game.
+[[9]](<06 Your Knowledge Portfolio - knowledge.md#FNPTR-9>)An expiring asset is something whose value diminishes over time. Examples include a warehouse full of bananas and a ticket to a ball game.
 
-[[10]](<Topic 6. Your Knowledge Portfolio - knowledge.md#FNPTR-10>)We may be biased, but there's a fine selection available at <https://pragprog.com>.
+[[10]](<06 Your Knowledge Portfolio - knowledge.md#FNPTR-10>)We may be biased, but there's a fine selection available at <https://pragprog.com>.
 
-[[11]](<Topic 6. Your Knowledge Portfolio - knowledge.md#FNPTR-11>)Never heard of any of these languages? Remember, knowledge is
+[[11]](<06 Your Knowledge Portfolio - knowledge.md#FNPTR-11>)Never heard of any of these languages? Remember, knowledge is
 an expiring asset, and so is popular technology. The list of
 hot new and experimental languages was very different for the
 first edition, and is probably different again by the time you

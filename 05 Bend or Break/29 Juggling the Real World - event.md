@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/5_bend_or_break.html#event
-
 <a id="event"></a>
 ## Topic 29. Juggling the Real World
 
@@ -262,7 +260,7 @@ as a parameter to that call.
 <a id="FNPTR-39"></a>
 Here's a simple example in Ruby. The Terminator module is used to
 terminate the application. Before it does so, however, it notifies all
-its observers that the application is going to exit.[[39]](<Topic 32. Configuration - configuration.md#FOOTNOTE-39>) They might use this
+its observers that the application is going to exit.[[39]](<32 Configuration - configuration.md#FOOTNOTE-39>) They might use this
 notification to tidy up temporary resources, commit data, and so on:
 
 [event/observer.rb](http://media.pragprog.com/titles/tpp20/code/event/observer.rb)
@@ -403,7 +401,7 @@ combined.subscribe(next => logValues(JSON.stringify(next)))
 <a id="d24e13549"></a>
 <a id="FNPTR-40"></a>
 This code uses a
-simple logging function[[40]](<Topic 32. Configuration - configuration.md#FOOTNOTE-40>)
+simple logging function[[40]](<32 Configuration - configuration.md#FOOTNOTE-40>)
 which adds items to a list in
 the browser window. Each item is timestamped with the time in
 milliseconds since the program started to run. Here's what it shows for

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/8_before_the_project.html#essence_of_agility
-
 <a id="essence_of_agility"></a>
 ## Topic 48. The Essence of Agility
 
@@ -215,7 +213,7 @@ improve what you do by gathering and acting on feedback?
 <a id="FOOTNOTE-73"></a>
 <a id="d24e25468"></a>
 <a id="FOOTNOTE-74"></a>
-[[70]](<Topic 45. The Requirements Pit - requirements.md#FNPTR-70>)Does a week
+[[70]](<45 The Requirements Pit - requirements.md#FNPTR-70>)Does a week
 sound like a long time? It really isn't, particularly when you're
 looking at processes in which management and workers occupy
 different worlds. Management will give you one view of how
@@ -223,9 +221,9 @@ things operate, but
 when you get down on the floor, you'll find a very different
 reality—one that will take time to assimilate.
 
-[[71]](<Topic 45. The Requirements Pit - requirements.md#FNPTR-71>)<https://www.wired.com/1999/01/eno/>
+[[71]](<45 The Requirements Pit - requirements.md#FNPTR-71>)<https://www.wired.com/1999/01/eno/>
 
-[[72]](<Topic 46. Solving Impossible Puzzles - outta_box.md#FNPTR-72>)<https://www.psychologytoday.com/us/blog/your-brain-work/201209/stop-trying-solve-problems>
+[[72]](<46 Solving Impossible Puzzles - outta_box.md#FNPTR-72>)<https://www.psychologytoday.com/us/blog/your-brain-work/201209/stop-trying-solve-problems>
 
 [[73]](#FNPTR-73)<https://agilemanifesto.org>
 

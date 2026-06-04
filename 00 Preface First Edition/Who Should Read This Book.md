@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/from_the_preface_to_the_first_edition.html#d24e419
-
 <a id="d24e419"></a>
 ## Who Should Read This Book?
 

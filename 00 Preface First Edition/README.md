@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/from_the_preface_to_the_first_edition.html
+---
+sidebar_label: Preface to the First Edition
+---
 
 ## Topics
 

@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/8_before_the_project.html
+---
+sidebar_label: 8. Before the Project
+---
 
 ## Topics
 

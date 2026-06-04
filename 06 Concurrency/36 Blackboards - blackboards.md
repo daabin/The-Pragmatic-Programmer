@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/6_concurrency.html#blackboards
-
 <a id="blackboards"></a>
 ## Topic 36. Blackboards
 
@@ -226,20 +224,20 @@ statistics and collects trouble reports, which agents use to look for trouble in
 <a id="FOOTNOTE-48"></a>
 <a id="d24e18702"></a>
 <a id="FOOTNOTE-49"></a>
-[[46]](<Topic 33. Breaking Temporal Coupling - temporal_coupling.md#FNPTR-46>)Although UML has gradually faded, many of its individual diagrams
+[[46]](<33 Breaking Temporal Coupling - temporal_coupling.md#FNPTR-46>)Although UML has gradually faded, many of its individual diagrams
 still exist in one form or another, including the very useful
 activity diagram.
 For more information on all of
 the UML diagram types, see [*UML Distilled: A Brief Guide to the Standard Object Modeling Language* [Fow04]](<../A2 Exercise Answers/README.md#d6040e383>).
 
-[[47]](<Topic 34. Shared State Is Incorrect State - shared_state.md#FNPTR-47>)The names P and V come from the initial letters of Dutch words.
+[[47]](<34 Shared State Is Incorrect State - shared_state.md#FNPTR-47>)The names P and V come from the initial letters of Dutch words.
 However there is some discussion about exactly which words. The
 inventor of the technique, Edsger Dĳkstra, has suggested both
 passering and prolaag for P, and vrijgave and possibly
 verhogen for V.
 
-[[48]](<Topic 35. Actors and Processes - actor_model.md#FNPTR-48>)<https://github.com/ncthbrt/nact>
+[[48]](<35 Actors and Processes - actor_model.md#FNPTR-48>)<https://github.com/ncthbrt/nact>
 
-[[49]](<Topic 35. Actors and Processes - actor_model.md#FNPTR-49>)In order to run this code you'll also need our wrapper functions,
+[[49]](<35 Actors and Processes - actor_model.md#FNPTR-49>)In order to run this code you'll also need our wrapper functions,
 which are not shown here. You can download them from
 <https://media.pragprog.com/titles/tpp20/code/concurrency/actors/index.js>

@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/a1_bibliography.html
+---
+sidebar_label: A1. Bibliography
+---
 
 # Appendix 1 - Bibliography
 

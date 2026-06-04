@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#reversi
-
 <a id="reversi"></a>
 ## Topic 11. Reversibility
 
@@ -50,7 +48,7 @@ reality that has fewer options.
 <a id="FNPTR-18"></a>
 By the time many critical decisions have been made, the target becomes
 so small that if it moves, or the wind changes direction, or a
-butterfly in Tokyo flaps its wings, you miss.[[18]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-18>) And you may miss by a huge
+butterfly in Tokyo flaps its wings, you miss.[[18]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-18>) And you may miss by a huge
 amount.
 
 <a id="d24e4835"></a>

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/8_before_the_project.html#outta_box
-
 <a id="outta_box"></a>
 ## Topic 46. Solving Impossible Puzzles
 
@@ -123,7 +121,7 @@ just pop into your head when you deliberately distract yourself.
 <a id="d24e25084"></a>
 <a id="FNPTR-72"></a>
 If that sounds too mystical for you, it isn't. Psychology
-Today[[72]](<Topic 48. The Essence of Agility - essence_of_agility.md#FOOTNOTE-72>)
+Today[[72]](<48 The Essence of Agility - essence_of_agility.md#FOOTNOTE-72>)
 reports:
 
 <a id="d24e25094"></a>

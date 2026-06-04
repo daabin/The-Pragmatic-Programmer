@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#tracer_bullets
-
 <a id="tracer_bullets"></a>
 ## Topic 12. Tracer Bullets
 

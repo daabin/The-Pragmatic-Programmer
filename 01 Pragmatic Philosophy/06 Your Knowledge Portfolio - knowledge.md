@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html#knowledge
-
 <a id="knowledge"></a>
 ## Topic 6. Your Knowledge Portfolio
 
@@ -20,7 +18,7 @@ assets.
 
 <a id="d24e1594"></a>
 <a id="FNPTR-9"></a>
-Unfortunately, they're expiring assets.[[9]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-9>)
+Unfortunately, they're expiring assets.[[9]](<07 Communicate - communicate.md#FOOTNOTE-9>)
 Your knowledge becomes out of date as new techniques,
 languages, and environments are developed. Changing market forces may
 render your experience obsolete or irrelevant. Given the ever-increasing pace of change in our technological society, this can happen pretty quickly.
@@ -139,7 +137,7 @@ Read a technical book each month
     for deep understanding you need long-form books. Browse the
     booksellers
     for technical books on interesting topics related
-    to your current project.[[10]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-10>) Once you're in the habit, read a book a
+    to your current project.[[10]](<07 Communicate - communicate.md#FOOTNOTE-10>) Once you're in the habit, read a book a
     month. After you've mastered the technologies you're currently using,
     branch out and study some that don't relate to your project.
 
@@ -281,7 +279,7 @@ complex answers.
 - Start learning a new language this week. Always programmed in the
   same old language? Try Clojure, Elixir, Elm, F#, Go, Haskell,
   Python, R, ReasonML, Ruby, Rust, Scala, Swift, TypeScript, or anything
-  else that appeals and/or looks as if you might like it.[[11]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-11>)
+  else that appeals and/or looks as if you might like it.[[11]](<07 Communicate - communicate.md#FOOTNOTE-11>)
 - Start reading a new book (but finish this one first!). If you are
   doing very detailed implementation and coding, read a book on design
   and architecture. If you are doing high-level design, read a book

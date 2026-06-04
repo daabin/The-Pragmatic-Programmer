@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/4_pragmatic_paranoia.html#headlights
-
 <a id="headlights"></a>
 ## Topic 27. Don't Outrun Your Headlights
 
@@ -97,17 +95,17 @@ Much of the time, tomorrow looks a lot like today. But don't count on it.
 <a id="FOOTNOTE-35"></a>
 <a id="d24e11715"></a>
 <a id="FOOTNOTE-36"></a>
-[[30]](<Topic 23. Design by Contract - dbc.md#FNPTR-30>)Based in part on earlier work by Dijkstra, Floyd, Hoare, Wirth, and others.
+[[30]](<23 Design by Contract - dbc.md#FNPTR-30>)Based in part on earlier work by Dijkstra, Floyd, Hoare, Wirth, and others.
 
-[[31]](<Topic 25. Assertive Programming - assertions.md#FNPTR-31>)In C and C++ these are usually implemented as macros. In Java,
+[[31]](<25 Assertive Programming - assertions.md#FNPTR-31>)In C and C++ these are usually implemented as macros. In Java,
 assertions are disabled by default. Invoke the Java VM with the
 –enableassertions flag to enable them, and leave them enabled.
 
-[[32]](<Topic 25. Assertive Programming - assertions.md#FNPTR-32>)<http://www.eps.mcgill.ca/jargon/jargon.html#heisenbug>
+[[32]](<25 Assertive Programming - assertions.md#FNPTR-32>)<http://www.eps.mcgill.ca/jargon/jargon.html#heisenbug>
 
-[[33]](<Topic 26. How to Balance Resources - balance_resources.md#FNPTR-33>)For a discussion of the dangers of coupled code, see Topic 28, [*Decoupling*](<../05 Bend or Break/28 Decoupling - coupling.md#coupling>).
+[[33]](<26 How to Balance Resources - balance_resources.md#FNPTR-33>)For a discussion of the dangers of coupled code, see Topic 28, [*Decoupling*](<../05 Bend or Break/28 Decoupling - coupling.md#coupling>).
 
-[[34]](<Topic 26. How to Balance Resources - balance_resources.md#FNPTR-34>)See the tip [here](<../05 Bend or Break/30 Transforming Programming - function_pipelines.md#pg-donthoard>).
+[[34]](<26 How to Balance Resources - balance_resources.md#FNPTR-34>)See the tip [here](<../05 Bend or Break/30 Transforming Programming - function_pipelines.md#pg-donthoard>).
 
 [[35]](#FNPTR-35)Per the NHTSA, Stopping Distance = Reaction Distance +
 Braking Distance, assuming an average reaction time of

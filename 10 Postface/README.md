@@ -1,4 +1,17 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/10_postface.html
+---
+sidebar_label: 10. Postface
+---
+
+<!-- Legacy footnote anchor aliases preserved for intra-book links -->
+<a id="FOOTNOTE-75"></a>
+<a id="FOOTNOTE-76"></a>
+<a id="FOOTNOTE-77"></a>
+<a id="FOOTNOTE-78"></a>
+<a id="FOOTNOTE-79"></a>
+<a id="FOOTNOTE-80"></a>
+<a id="FOOTNOTE-81"></a>
+<a id="FOOTNOTE-82"></a>
+<a id="FOOTNOTE-83"></a>
 
 # Chapter 10 - Postface
 

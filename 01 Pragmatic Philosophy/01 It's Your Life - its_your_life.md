@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html#its_your_life
-
 <a id="its_your_life"></a>
 ## Topic 1. It's Your Life
 
@@ -45,7 +43,7 @@ So here's the most important tip in the book.
 <a id="FNPTR-3"></a>
 Does your work environment suck? Is your job boring? Try to fix it. But
 don't try forever. As Martin Fowler says, “you can change your
-organization or change your organization.”[[3]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-3>)
+organization or change your organization.”[[3]](<07 Communicate - communicate.md#FOOTNOTE-3>)
 
 <a id="d24e862"></a>
 If technology seems to be passing you by, make time (in your own time)

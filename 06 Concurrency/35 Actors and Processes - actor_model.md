@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/6_concurrency.html#actor_model
-
 <a id="actor_model"></a>
 ## Topic 35. Actors and Processes
 
@@ -92,7 +90,7 @@ The overall message flow will look like this:
 <a id="d24e18225"></a>
 <a id="FNPTR-48"></a>
 We've chosen to implement the code in JavaScript using the Nact
-library.[[48]](<Topic 36. Blackboards - blackboards.md#FOOTNOTE-48>) We've added a little wrapper
+library.[[48]](<36 Blackboards - blackboards.md#FOOTNOTE-48>) We've added a little wrapper
 to this that lets us write actors as simple objects, where the keys are
 the message types that it receives and the values are functions to run
 when that particular message is received. (Most actor systems have a
@@ -247,7 +245,7 @@ sleep(500)
 
 <a id="d24e18699"></a>
 <a id="FNPTR-49"></a>
-When we run it, we can see the actors communicating.[[49]](<Topic 36. Blackboards - blackboards.md#FOOTNOTE-49>) The order
+When we run it, we can see the actors communicating.[[49]](<36 Blackboards - blackboards.md#FOOTNOTE-49>) The order
 you see may well be different:
 
 ```

@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/6_concurrency.html#shared_state
-
 <a id="shared_state"></a>
 ## Topic 34. Shared State Is Incorrect State
 
@@ -97,7 +95,7 @@ of the pies, ready to mediate the next order.
 <a id="FNPTR-47"></a>
 Let's look at this in code. Classically, the operation to grab the
 semaphore was called P, and the operation to release it was called
-V.[[47]](<Topic 36. Blackboards - blackboards.md#FOOTNOTE-47>) Today we use terms such as lock/unlock, claim/release,
+V.[[47]](<36 Blackboards - blackboards.md#FOOTNOTE-47>) Today we use terms such as lock/unlock, claim/release,
 and so on.
 
 ```

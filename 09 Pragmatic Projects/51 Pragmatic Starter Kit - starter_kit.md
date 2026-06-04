@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/9_pragmatic_projects.html#starter_kit
-
 <a id="starter_kit"></a>
 ## Topic 51. Pragmatic Starter Kit
 

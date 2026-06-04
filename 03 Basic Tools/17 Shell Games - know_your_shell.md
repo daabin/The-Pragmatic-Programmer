@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/3_the_basic_tools.html#know_your_shell
-
 <a id="know_your_shell"></a>
 ## Topic 17. Shell Games
 

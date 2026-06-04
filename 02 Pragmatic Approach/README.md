@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html
+---
+sidebar_label: 2. A Pragmatic Approach
+---
 
 ## Topics
 

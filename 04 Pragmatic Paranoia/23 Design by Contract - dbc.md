@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/4_pragmatic_paranoia.html#dbc
-
 <a id="dbc"></a>
 ## Topic 23. Design by Contract
 
@@ -38,7 +36,7 @@ modules interact? The answer is “yes.''
 <a id="FNPTR-30"></a>
 Bertrand Meyer
 ([*Object-Oriented Software Construction* [Mey97]](<../A2 Exercise Answers/README.md#d6040e783>)) developed the concept of
-Design by Contract for the language Eiffel.[[30]](<Topic 27. Don't Outrun Your Headlights - headlights.md#FOOTNOTE-30>) It is a simple yet
+Design by Contract for the language Eiffel.[[30]](<27 Don't Outrun Your Headlights - headlights.md#FOOTNOTE-30>) It is a simple yet
 powerful technique that focuses on documenting (and agreeing to) the
 rights and responsibilities of software modules to ensure program
 correctness. What is a correct program? One that does no more and no

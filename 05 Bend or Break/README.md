@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/5_bend_or_break.html
+---
+sidebar_label: 5. Bend, or Break
+---
 
 ## Topics
 

@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html
+---
+sidebar_label: 7. While You Are Coding
+---
 
 ## Topics
 

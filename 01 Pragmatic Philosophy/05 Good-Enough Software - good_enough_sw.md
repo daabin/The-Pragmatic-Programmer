@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html#good_enough_sw
-
 <a id="good_enough_sw"></a>
 ## Topic 5. Good-Enough Software
 
@@ -43,7 +41,7 @@ produced is good enough for their needs.
 <a id="d24e1440"></a>
 <a id="FNPTR-8"></a>
 Normally you're writing software for other people. Often you'll remember
-to find out what they want.[[8]](<Topic 7. Communicate! - communicate.md#FOOTNOTE-8>) But do you ever ask them
+to find out what they want.[[8]](<07 Communicate - communicate.md#FOOTNOTE-8>) But do you ever ask them
 how good they want their software to be? Sometimes there'll be no
 choice. If you're working on pacemakers, an autopilot, or a
 low-level library that will be widely disseminated, the requirements

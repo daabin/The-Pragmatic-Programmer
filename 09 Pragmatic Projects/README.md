@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/9_pragmatic_projects.html
+---
+sidebar_label: 9. Pragmatic Projects
+---
 
 ## Topics
 

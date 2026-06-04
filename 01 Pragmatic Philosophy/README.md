@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philosophy.html
+---
+sidebar_label: 1. A Pragmatic Philosophy
+---
 
 ## Topics
 
@@ -8,7 +10,7 @@ Source: https://panzhongxian.cn/en/the-pragmatic-programmer/1_a_pragmatic_philos
 - [Topic 4. Stone Soup and Boiled Frogs](<04 Stone Soup and Boiled Frogs - stone_soup.md>)
 - [Topic 5. Good-Enough Software](<05 Good-Enough Software - good_enough_sw.md>)
 - [Topic 6. Your Knowledge Portfolio](<06 Your Knowledge Portfolio - knowledge.md>)
-- [Topic 7. Communicate!](<07 Communicate! - communicate.md>)
+- [Topic 7. Communicate!](<07 Communicate - communicate.md>)
 
 # Chapter 1 - A Pragmatic Philosophy
 
@@ -53,7 +55,7 @@ the momentum up.
 
 <a id="d24e787"></a>
 Finally, none of us works in a vacuum. We all spend a large amount of
-time interacting with others. Topic 7, [*Communicate!*](<07 Communicate! - communicate.md#communicate>) lists
+time interacting with others. Topic 7, [*Communicate!*](<07 Communicate - communicate.md#communicate>) lists
 ways we can do this better.
 
 <a id="d24e796"></a>

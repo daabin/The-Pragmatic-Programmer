@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#listen_to_your_lizard_brain
-
 <a id="listen_to_your_lizard_brain"></a>
 ## Topic 37. Listen to Your Lizard Brain
 

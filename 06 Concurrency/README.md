@@ -1,4 +1,6 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/6_concurrency.html
+---
+sidebar_label: 6. Concurrency
+---
 
 ## Topics
 

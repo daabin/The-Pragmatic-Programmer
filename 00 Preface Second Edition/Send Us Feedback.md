@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/preface_to_the_second_edition.html#d24e329
-
 <a id="d24e329"></a>
 ## Send Us Feedback
 

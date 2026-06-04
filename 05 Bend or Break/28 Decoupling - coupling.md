@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/5_bend_or_break.html#coupling
-
 <a id="coupling"></a>
 ## Topic 28. Decoupling
 
@@ -197,7 +195,7 @@ creating APIs that expose order objects.
 <a id="d24e12267"></a>
 <a id="FNPTR-37"></a>
 People often talk about something called the Law of Demeter, or LoD,
-in relation to coupling. The LoD is a set of guidelines[[37]](<Topic 32. Configuration - configuration.md#FOOTNOTE-37>) written in the
+in relation to coupling. The LoD is a set of guidelines[[37]](<32 Configuration - configuration.md#FOOTNOTE-37>) written in the
 late '80s by Ian Holland. He created them to help developers on the
 Demeter Project keep their functions cleaner and decoupled.
 
@@ -379,4 +377,4 @@ them more amenable to change.
 - Topic 35, [*Actors and Processes*](<../06 Concurrency/35 Actors and Processes - actor_model.md#actor_model>)
 - Topic 36, [*Blackboards*](<../06 Concurrency/36 Blackboards - blackboards.md#blackboards>)
 - We discuss Tell, Don't Ask in our 2003 Software Construction article
-  The Art of Enbugging.[[38]](<Topic 32. Configuration - configuration.md#FOOTNOTE-38>)
+  The Art of Enbugging.[[38]](<32 Configuration - configuration.md#FOOTNOTE-38>)

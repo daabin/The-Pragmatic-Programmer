@@ -1,4 +1,38 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/a2_possible_answers_to_the_exercises.html
+---
+sidebar_label: A2. Possible Answers to the Exercises
+---
+
+<!-- Legacy anchor aliases preserved for intra-book links -->
+<a id="d6040e2"></a>
+<a id="d6040e55"></a>
+<a id="d6040e93"></a>
+<a id="d6040e120"></a>
+<a id="d6040e160"></a>
+<a id="d6040e197"></a>
+<a id="d6040e240"></a>
+<a id="d6040e275"></a>
+<a id="d6040e306"></a>
+<a id="d6040e349"></a>
+<a id="d6040e383"></a>
+<a id="d6040e418"></a>
+<a id="d6040e452"></a>
+<a id="d6040e510"></a>
+<a id="d6040e541"></a>
+<a id="d6040e572"></a>
+<a id="d6040e610"></a>
+<a id="d6040e641"></a>
+<a id="d6040e675"></a>
+<a id="d6040e709"></a>
+<a id="d6040e743"></a>
+<a id="d6040e783"></a>
+<a id="d6040e818"></a>
+<a id="d6040e849"></a>
+<a id="d6040e892"></a>
+<a id="d6040e927"></a>
+<a id="d6040e970"></a>
+<a id="d6040e1004"></a>
+<a id="d6040e1054"></a>
+<a id="d6040e1088"></a>
 
 <a id="answers"></a>
 # Appendix 2 - Possible Answers to the Exercises

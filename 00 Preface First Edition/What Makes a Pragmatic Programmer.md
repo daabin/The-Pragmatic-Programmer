@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/from_the_preface_to_the_first_edition.html#d24e427
-
 <a id="d24e427"></a>
 ## What Makes a Pragmatic Programmer?
 

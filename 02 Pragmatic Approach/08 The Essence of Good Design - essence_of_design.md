@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#essence_of_design
-
 <a id="essence_of_design"></a>
 ## Topic 8. The Essence of Good Design
 
@@ -107,10 +105,10 @@ but all are motivated by this one principle.
   both?
 
   When coding, what can you do to eliminate the negatives and accentuate
-  the positives?[[13]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-13>)
+  the positives?[[13]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-13>)
 
 <a id="FNPTR-14"></a>
 - Many editors have support (either built-in or via extensions) to run
   commands when you save a file. Get your editor to popup an ETC?
-  message every time you save[[14]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-14>) and use it as a cue to think
+  message every time you save[[14]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-14>) and use it as a cue to think
   about the code you just wrote. Is it easy to change?

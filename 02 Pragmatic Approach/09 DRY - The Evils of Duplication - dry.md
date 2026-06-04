@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/2_a_pragmatic_approach.html#dry
-
 <a id="dry"></a>
 ## Topic 9. DRY—The Evils of Duplication
 
@@ -315,7 +313,7 @@ For internal APIs, look for tools that let you specify the API in some kind of n
 
 <a id="d24e3979"></a>
 <a id="FNPTR-15"></a>
-Increasingly, you'll find that public APIs are documented formally using something like OpenAPI.[[15]](<Topic 15. Estimating - learn_to_estimate.md#FOOTNOTE-15>) This allows you to import the API spec into your local API tools and integrate more reliably with the service.
+Increasingly, you'll find that public APIs are documented formally using something like OpenAPI.[[15]](<15 Estimating - learn_to_estimate.md#FOOTNOTE-15>) This allows you to import the API spec into your local API tools and integrate more reliably with the service.
 
 <a id="d24e3988"></a>
 If you can't find such a specification, consider creating one and publishing it. Not only will others find it useful; you may even get help maintaining it.

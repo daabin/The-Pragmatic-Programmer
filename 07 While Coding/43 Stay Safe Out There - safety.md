@@ -1,5 +1,3 @@
-Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#safety
-
 <a id="safety"></a>
 ## Topic 43. Stay Safe Out There
 
@@ -23,7 +21,7 @@ It's because the developers were careless.
 
 <a id="d24e23104"></a>
 <a id="FNPTR-62"></a>
-When coding, you may go through several cycles of “it works!” and “why isn't that working?” with the occasional “there's no way that could have happened…”[[62]](<Topic 44. Naming Things - naming.md#FOOTNOTE-62>) After several hills and bumps on this uphill climb, it's easy to say to yourself, “phew, it all works!” and proclaim the code done. Of course, it's not done yet. You're 90% done, but now you have the other 90% to consider.
+When coding, you may go through several cycles of “it works!” and “why isn't that working?” with the occasional “there's no way that could have happened…”[[62]](<44 Naming Things - naming.md#FOOTNOTE-62>) After several hills and bumps on this uphill climb, it's easy to say to yourself, “phew, it all works!” and proclaim the code done. Of course, it's not done yet. You're 90% done, but now you have the other 90% to consider.
 
 <a id="d24e23115"></a>
 The next thing you have to do is analyze the code for ways it can go
@@ -85,7 +83,7 @@ Code complexity leads to attack vectors
 Input data is an attack vector
 :   Never trust data from an external entity, always sanitize it before
     passing it on to a database, view rendering, or other
-    processing.[[63]](<Topic 44. Naming Things - naming.md#FOOTNOTE-63>) Some languages can help with this. In
+    processing.[[63]](<44 Naming Things - naming.md#FOOTNOTE-63>) Some languages can help with this. In
     Ruby, for example, variables holding external input are tainted,
     which limits what operations can be performed on them. For example,
     this code apparently uses the wc utility to report on the number of
@@ -132,7 +130,7 @@ Output data is an attack vector
 <a id="d24e23414"></a>
 <a id="FNPTR-64"></a>
 Debugging info is an attack vector
-:   There's nothing as heartwarming as seeing a full stack trace with data on your local ATM machine, an airport kiosk, or crashing web page. Information designed to make debugging easier can make breaking in easier as well. Make sure any “test window” (discussed [here](<41 Test to Code - test_to_build.md#pg-test_window>)) and runtime exception reporting is protected from spying eyes.[[64]](<Topic 44. Naming Things - naming.md#FOOTNOTE-64>)
+:   There's nothing as heartwarming as seeing a full stack trace with data on your local ATM machine, an airport kiosk, or crashing web page. Information designed to make debugging easier can make breaking in easier as well. Make sure any “test window” (discussed [here](<41 Test to Code - test_to_build.md#pg-test_window>)) and runtime exception reporting is protected from spying eyes.[[64]](<44 Naming Things - naming.md#FOOTNOTE-64>)
 
 **Tip 72: Keep It Simple and Minimize Attack Surfaces**
 
@@ -206,11 +204,11 @@ Password Antipatterns
 
 One of the fundamental problems with security is that oftentimes good security runs counter to common sense or common practice. For example, you might think that strict password requirements would increase security for your application or site. You'd be wrong.
 
-Strict password policies will actually lower your security. Here's a short list of very bad ideas, along with some recommendations from the NIST:[[65]](<Topic 44. Naming Things - naming.md#FOOTNOTE-65>)
+Strict password policies will actually lower your security. Here's a short list of very bad ideas, along with some recommendations from the NIST:[[65]](<44 Naming Things - naming.md#FOOTNOTE-65>)
 
 - Do not restrict password length to less than 64 characters. NIST recommends 256 as a good maximum length.
 - Do not truncate the user's chosen password.
-- Do not restrict special characters such as []();&%$# or /. See the note about Bobby Tables earlier in this section. If special characters in your password will compromise your system, you have bigger problems. The NIST says to accept all printing ASCII characters, space, and Unicode.
+- Do not restrict special characters such as ``[]();&%$#`` or `/`. See the note about Bobby Tables earlier in this section. If special characters in your password will compromise your system, you have bigger problems. The NIST says to accept all printing ASCII characters, space, and Unicode.
 - Do not provide password hints to unauthenticated users, or prompt for specific types of information (e.g., “what was the name of your first pet?”).
 - Do not disable the paste function in the browser. Crippling the functionality of the browser and password managers does not make your system more secure, in fact it drives users to create simpler, shorter passwords that are much easier to compromise. Both the NIST in the US and the National Cyber Security Centre in the UK specifically require verifiers to allow paste functionality for this reason.
 - Do not impose other composition rules. For example, do not mandate any particular mix of upper and lower case, numerics, or special characters, or prohibit repeating characters, and so on.
@@ -237,7 +235,7 @@ Don't let it happen to you.
 <a id="FNPTR-66"></a>
 It's important to keep in mind that common sense may fail you when it
 comes to matters of cryptography. The first and most important rule when
-it comes to crypto is never do it yourself.[[66]](<Topic 44. Naming Things - naming.md#FOOTNOTE-66>) Even for
+it comes to crypto is never do it yourself.[[66]](<44 Naming Things - naming.md#FOOTNOTE-66>) Even for
 something as simple as passwords, common practices are wrongheaded (see
 the sidebar [*Password Antipatterns*](#passwords)). Once you get into the world of
 crypto, even the tiniest, most insignificant-looking error can
