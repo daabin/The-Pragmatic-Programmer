@@ -1,0 +1,239 @@
+Source: https://panzhongxian.cn/en/the-pragmatic-programmer/7_while_you_are_coding.html#listen_to_your_lizard_brain
+
+<a id="listen_to_your_lizard_brain"></a>
+## Topic 37. Listen to Your Lizard Brain
+
+> Only human beings can look directly at something, have all the information they need to make an accurate prediction, perhaps even momentarily make the accurate prediction, and then say that it isn't so.
+>
+> Gavin de Becker,
+> The Gift of Fear
+
+<a id="d24e19357"></a>
+Gavin de Becker's life's work is helping people to protect themselves.
+His book, [*The Gift of Fear: And Other Survival Signals That Protect Us from Violence* [de 98]](<../A2 Exercise Answers/README.md#d6040e275>), encapsulates his message. One of the key themes running through the book is that as
+sophisticated humans we have learned to ignore our more animal side; our
+instincts, our lizard brain. He claims that most people who are attacked
+in the street are aware of feeling uncomfortable or nervous before the
+attack. These people just tell themselves they're being silly. Then the
+figure emerges from the dark doorway….
+
+<a id="d24e19380"></a>
+Instincts are simply a response to patterns packed into our nonconscious
+brain. Some are innate, others are learned through repetition. As you
+gain experience as a programmer, your brain is laying down layers of
+tacit knowledge: things that work, things that don't work, the probable
+causes of a type of error, all the things you notice throughout your
+days. This is the part of your brain that hits the save file key when
+you stop to chat with someone, even when you don't realize that you're
+doing it.
+
+<a id="d24e19397"></a>
+Whatever their source, instincts share one thing: they have no words.
+Instincts make you feel, not think. And so when an instinct is
+triggered, you don't see a flashing lightbulb with a banner wrapped
+around it. Instead, you get nervous, or queasy, or feel like this is
+just too much work.
+
+<a id="d24e19399"></a>
+The trick is first to notice it is happening, and then to work out why.
+Let's look first at a couple of common situations in which your inner
+lizard is trying to tell you something. Then we'll discuss how you can
+let that instinctive brain out of its protective wrapper.
+
+### Fear of the Blank Page
+
+<a id="d24e19404"></a>
+Everyone fears the empty screen, the lonely blinking cursor surrounded
+by a whole bunch of nothing. Starting a new project (or even a new
+module in an existing project) can be an unnerving experience. Many of
+us would prefer to put off making the initial commitment of starting.
+
+<a id="d24e19415"></a>
+We think that there are two problems that cause this, and that both have
+the same solution.
+
+<a id="d24e19417"></a>
+One problem is that your lizard brain is trying to
+tell you something; there's some kind of doubt lurking just below the
+surface of perception. And that's important.
+
+<a id="d24e19419"></a>
+As a developer, you've been trying things and seeing which worked and
+which didn't. You've been accumulating experience and wisdom. When you
+feel a nagging doubt, or experience some reluctance when faced with a
+task, it might be that experience trying to speak to you. Heed it. You
+may not be able to put your finger on exactly what's wrong, but give it
+time and your doubts will probably crystallize into something more
+solid, something you can address. Let your instincts contribute to your performance.
+
+<a id="d24e19421"></a>
+The other problem is a little more prosaic: you might simply be afraid
+that you'll make a mistake.
+
+<a id="d24e19432"></a>
+And that's a reasonable fear. We developers put a lot of ourselves into
+our code; we can take errors in that code as reflections on our
+competence. Perhaps there's an element of imposter syndrome, too; we
+may think that this project is beyond us. We can't see our way through
+to the end; we'll get so far and then be forced to admit that we're
+lost.
+
+### Fighting Yourself
+
+<a id="d24e19442"></a>
+Sometimes code just flies from your brain into the editor: ideas become
+bits with seemingly no effort.
+
+<a id="d24e19444"></a>
+Other days, coding feels like walking uphill in mud. Taking each step
+requires tremendous effort, and every three steps you slide back two.
+
+<a id="d24e19446"></a>
+But, being a professional, you soldier on, taking step after muddy step:
+you have a job to do. Unfortunately, that's probably the exact
+opposite of what you should do.
+
+<a id="d24e19448"></a>
+Your code is trying to tell you something. It's saying that this is
+harder than it should be. Maybe the structure or design is wrong, maybe
+you're solving the wrong problem, or maybe you're just creating an ant
+farm's worth of bugs. Whatever the reason, your lizard brain is
+sensing feedback from the code, and it's desperately trying to get you
+to listen.
+
+### How to Talk Lizard
+
+<a id="d24e19457"></a>
+We talk a lot about listening to your instincts, to your nonconscious,
+lizard brain. The techniques are always the same.
+
+**Tip 61: Listen to Your Inner Lizard**
+
+<a id="d24e19465"></a>
+First, stop what you're doing. Give yourself a little time and space to
+let your brain organize itself. Stop thinking about the code, and do
+something that is fairly mindless for a while, away from a keyboard.
+Take a walk, have lunch, chat with someone. Maybe sleep on it. Let the
+ideas percolate up through the layers of your brain on their own: you
+can't force it. Eventually they may bubble up to the conscious level,
+and you have one of those a ha! moments.
+
+<a id="d24e19474"></a>
+If that's not working, try externalizing the issue. Make doodles about
+the code you're writing, or explain it to a coworker (preferably
+one who isn't a programmer), or to your rubber duck. Expose different
+parts of your brain to the issue, and see if any of them have a better
+handle on the thing that's troubling you. We've lost track of the number
+of conversations we've had where one of us was explaining a problem to
+the other and suddenly went “Oh! Of course!” and broke off to fix it.
+
+<a id="d24e19488"></a>
+But maybe you've tried these things, and you're still stuck. It's time
+for action. We need to tell your brain that what you're about to do
+doesn't matter. And we do that by prototyping.
+
+### It's Playtime!
+
+<a id="d24e19493"></a>
+Andy and Dave have both spent hours looking at empty editor buffers.
+We'll type in some code, then look at the ceiling,
+then get yet another drink, then type in some more code, then go
+read a funny story about a cat with two tails, then type some more code,
+then do select-all/delete and start again. And again. And again.
+
+<a id="d24e19499"></a>
+And over the years we've found a brain hack that seems to work. Tell
+yourself you need to prototype something. If you're facing a blank
+screen, then look for some aspect of the project that you want to
+explore. Maybe you're using a new
+framework, and want to see how it does data binding. Or maybe it's a new
+algorithm, and you want to explore how it works on edge cases. Or maybe
+you want to try a couple of different styles of user interaction.
+
+<a id="d24e19501"></a>
+If you're working on existing code and it's pushing back, then stash it
+away somewhere and prototype up something similar instead.
+
+<a id="d24e19503"></a>
+Do the following.
+
+<a id="d24e19507"></a>
+<a id="d24e19510"></a>
+<a id="d24e19517"></a>
+<a id="d24e19520"></a>
+1. Write “I'm prototyping” on a sticky note, and stick it on the side of
+   your screen.
+2. Remind yourself that prototypes are meant to fail. And remind
+   yourself that prototypes get thrown away, even if they don't fail.
+   There is no downside to doing this.
+3. In your empty editor buffer, create a comment describing in one
+   sentence what you want to learn or do.
+4. Start coding.
+
+<a id="d24e19522"></a>
+If you start to have doubts, look at the sticky note.
+
+<a id="d24e19524"></a>
+If, in the middle of coding, that nagging doubt suddenly crystallizes
+into a solid concern, then address it.
+
+<a id="d24e19526"></a>
+If you get to the end of the experiment and you still feel uneasy, start
+again with the walk and the talk and the time off.
+
+<a id="d24e19528"></a>
+But, in our experience, at some point during the first prototype you
+will be surprised to find yourself humming along with your music,
+enjoying the feeling of creating code. The nervousness will have
+evaporated, replaced by a feeling of urgency: let's get this done!
+
+<a id="d24e19530"></a>
+At this stage, you know what to do. Delete all the prototype code, throw
+away the sticky note, and fill that empty editor buffer with
+bright, shiny new code.
+
+### Not Just Your Code
+
+<a id="d24e19538"></a>
+A large part of our job is dealing with existing code, often written by
+other people. Those people will have different instincts to you, and so
+the decisions they made will be different. Not necessarily worse; just
+different.
+
+<a id="d24e19549"></a>
+You can read their code mechanically, slogging through it making notes
+on stuff that seems important. It's a chore, but it works.
+
+<a id="d24e19551"></a>
+Or you can try an experiment. When you spot things done in a way that
+seems strange, jot it down. Continue doing this, and look for patterns.
+If you can see what drove them to write code that way, you may find that
+the job of understanding it becomes a lot easier. You'll be able
+consciously to apply the patterns that they applied tacitly.
+
+<a id="d24e19557"></a>
+And you might just learn something new along the way.
+
+### Not Just Code
+
+<a id="d24e19563"></a>
+Learning to listen to your gut when coding is an important skill to
+foster. But it applies to the bigger picture are well. Sometimes a
+design just feels wrong, or some requirement makes you
+feel uneasy. Stop and analyze these feelings. If you're in a supportive
+environment, express them out loud. Explore them. The chances are that
+there's something lurking in that dark doorway. Listen to your instincts
+and avoid the problem before it jumps out at you.
+
+### Related Sections Include
+
+- Topic 13, [*Prototypes and Post-it Notes*](<../02 Pragmatic Approach/13 Prototypes and Post-it Notes - prototyping.md#prototyping>)
+- Topic 22, [*Engineering Daybooks*](<../03 Basic Tools/22 Engineering Daybooks - daybook.md#daybook>)
+- Topic 46, [*Solving Impossible Puzzles*](<../08 Before the Project/46 Solving Impossible Puzzles - outta_box.md#outta_box>)
+
+### Challenges
+
+- Is there something you know you should do, but have put off because it
+  feels a little scary, or difficult? Apply the techniques in this
+  section. Time box it to an hour, maybe two, and promise yourself that
+  when the bell rings you'll delete what you did. What did you learn?
