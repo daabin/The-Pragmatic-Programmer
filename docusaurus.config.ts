@@ -43,26 +43,9 @@ const config: Config = {
       'classic',
       {
         docs: {
-          path: '.',
+          path: 'docs-en',
           routeBasePath: '/',
-          include: [
-            'README.md',
-            '00 Foreword/**/*.md',
-            '00 Preface First Edition/**/*.md',
-            '00 Preface Second Edition/**/*.md',
-            '01 Pragmatic Philosophy/**/*.md',
-            '02 Pragmatic Approach/**/*.md',
-            '03 Basic Tools/**/*.md',
-            '04 Pragmatic Paranoia/**/*.md',
-            '05 Bend or Break/**/*.md',
-            '06 Concurrency/**/*.md',
-            '07 While Coding/**/*.md',
-            '08 Before the Project/**/*.md',
-            '09 Pragmatic Projects/**/*.md',
-            '10 Postface/**/*.md',
-            'A1 Bibliography/**/*.md',
-            'A2 Exercise Answers/**/*.md',
-          ],
+          include: ['**/*.md'],
           sidebarPath: './sidebars.ts',
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
@@ -73,6 +56,20 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'zh-cn',
+        path: 'zh-CN',
+        routeBasePath: 'zh-CN',
+        include: ['**/*.md'],
+        sidebarPath: './sidebars.zh-CN.ts',
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+      },
     ],
   ],
 
@@ -89,10 +86,14 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/',
           position: 'left',
-          label: 'Chapters',
+          label: 'English',
+        },
+        {
+          to: '/zh-CN/',
+          position: 'left',
+          label: '简体中文',
         },
         {
           href: 'https://panzhongxian.cn/en/the-pragmatic-programmer/0_toc.html',

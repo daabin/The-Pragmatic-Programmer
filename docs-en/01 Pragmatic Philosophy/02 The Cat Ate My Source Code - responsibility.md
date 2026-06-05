@@ -1,0 +1,114 @@
+<a id="responsibility"></a>
+## Topic 2. The Cat Ate My Source Code
+
+> The greatest of all weaknesses is the fear of appearing weak.
+>
+> J.B. Bossuet, Politics from Holy Writ, 1709
+
+<a id="d24e900"></a>
+One of the cornerstones of the pragmatic philosophy is the idea of
+taking responsibility for yourself and your actions in terms of your
+career advancement, your learning and education, your project, and your
+day-to-day work. Pragmatic Programmers take charge of their own
+career, and aren't afraid to admit ignorance or error. It's not the most
+pleasant aspect of programming, to be sure, but it will happen—even on
+the best of projects. Despite thorough testing, good documentation, and
+solid automation, things go wrong. Deliveries are late. Unforeseen
+technical problems come up.
+
+<a id="d24e921"></a>
+These things happen, and we try to deal with them as professionally as
+we can. This means being honest and direct. We can be proud of our
+abilities, but we must own up to our shortcomings—our
+ignorance and our mistakes.
+
+### Team Trust
+
+<a id="d24e926"></a>
+<a id="FNPTR-4"></a>
+Above all, your team needs to be able to trust and rely on you—and you need to be comfortable relying on each of them as well. Trust in a team is absolutely essential for creativity and collaboration according to the research literature.[[4]](<07 Communicate - communicate.md#FOOTNOTE-4>) In a healthy environment based in trust, you can safely speak your mind, present your ideas, and rely on your team members who can in turn rely on you.
+Without trust, well…
+
+<a id="d24e963"></a>
+Imagine a high-tech, stealth ninja team infiltrating the villain's evil lair. After months of planning and delicate execution, you've made it on site. Now it's your turn to set up the laser guidance grid: “Sorry, folks, I don't have the laser. The cat was playing with the red dot and I left it at home.”
+
+<a id="d24e965"></a>
+That sort of breach of trust might be hard to repair.
+
+### Take Responsibility
+
+<a id="d24e970"></a>
+Responsibility is something you actively agree to. You make a
+commitment to ensure that something is done right, but you don't
+necessarily have direct control over every aspect of it. In addition
+to doing your own personal best, you must analyze the situation for
+risks that are beyond your control. You have the right not to
+take on a responsibility for an impossible situation, or one in which
+the risks are too great, or the ethical implications too sketchy.
+You'll have to make the call based on your own values and judgment.
+
+<a id="d24e979"></a>
+When you do accept the responsibility for an outcome, you
+should expect to be held accountable for it. When you make a mistake
+(as we all do) or an error in judgment, admit it honestly and try to
+offer options.
+
+<a id="d24e984"></a>
+Don't blame someone or something else, or make up an excuse. Don't
+blame all the problems on a vendor, a programming language, management,
+or your coworkers. Any and all of these may play a role, but it is up
+to you to provide solutions, not excuses.
+
+<a id="d24e996"></a>
+If there was a risk that the vendor wouldn't come through for you, then
+you should have had a contingency plan. If your mass storage
+melts—taking all of your source code with it—and you don't have a
+backup, it's your fault. Telling your boss “the cat ate my source
+code'' just won't cut it.
+
+**Tip 4: Provide Options, Don't Make Lame Excuses**
+
+<a id="d24e1009"></a>
+Before you approach anyone to tell them why something can't be done, is late, or is broken, stop and listen to yourself. Talk to the rubber duck on your monitor, or the cat. Does your excuse sound reasonable, or stupid? How's it going to sound to your boss?
+
+<a id="d24e1011"></a>
+Run through the conversation in your mind. What is the other person
+likely to say? Will they ask, “Have you tried this…” or
+“Didn't you consider that?” How will you respond? Before you go
+and tell them the bad news, is there anything else you can try?
+Sometimes, you just know what they are going to say, so save
+them the trouble.
+
+<a id="d24e1016"></a>
+Instead of excuses, provide options. Don't say it can't be done; explain
+what can be done to salvage the situation. Does code have to be
+deleted? Tell them so, and explain the value of refactoring (see Topic 40, [*Refactoring*](<../07 While Coding/40 Refactoring - refactor.md#refactor>)).
+
+<a id="d24e1023"></a>
+Do you need to spend time prototyping to
+determine the best way to proceed (see Topic 13, [*Prototypes and Post-it Notes*](<../02 Pragmatic Approach/13 Prototypes and Post-it Notes - prototyping.md#prototyping>))? Do
+you need to introduce better testing (see Topic 41, [*Test to Code*](<../07 While Coding/41 Test to Code - test_to_build.md#test_to_build>), and [*Ruthless and Continuous Testing*](<../09 Pragmatic Projects/51 Pragmatic Starter Kit - starter_kit.md#testing>)) or automation
+to prevent it from happening again?
+
+<a id="d24e1031"></a>
+Perhaps you need additional resources to complete this task. Or maybe you need to spend more time with the users? Or maybe it's just you: do you need to learn some technique or technology in greater depth? Would a book or a course help? Don't be afraid to ask, or to admit that you need help.
+
+<a id="d24e1034"></a>
+Try to flush out the lame excuses before voicing them aloud. If you
+must, tell your cat first. After all, if little Tiddles is going to
+take the blame….
+
+### Related Sections Include
+
+- Topic 49, [*Pragmatic Teams*](<../09 Pragmatic Projects/49 Pragmatic Teams - teams.md#teams>)
+
+### Challenges
+
+<a id="d24e1048"></a>
+<a id="d24e1055"></a>
+- How do you react when someone—such as a bank teller, an auto
+  mechanic, or a clerk—comes to you with a lame excuse? What do you
+  think of them and their company as a result?
+- When you find yourself saying, “I don't know,” be sure to follow it
+  up with “—but I'll find out.” It's a great way to admit what you
+  don't know, but then take responsibility like a pro.

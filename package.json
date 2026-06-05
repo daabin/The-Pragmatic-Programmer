@@ -5,8 +5,13 @@
   "packageManager": "pnpm@11.5.1",
   "scripts": {
     "docusaurus": "docusaurus",
+    "sync:docs-en": "python3 scripts/sync_docs_en.py",
+    "prestart": "pnpm sync:docs-en",
+    "prebuild": "pnpm sync:docs-en",
+    "preserve": "pnpm sync:docs-en",
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "translate:zh": "python3 scripts/translate_docs.py",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
