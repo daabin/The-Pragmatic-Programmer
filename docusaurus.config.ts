@@ -102,39 +102,6 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: 'light',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Reading Index',
-              to: '/',
-            },
-          ],
-        },
-        {
-          title: 'Source',
-          items: [
-            {
-              label: 'Original TOC',
-              href: 'https://panzhongxian.cn/en/the-pragmatic-programmer/0_toc.html',
-            },
-          ],
-        },
-        {
-          title: 'Archive',
-          items: [
-            {
-              label: 'Reading Index',
-              to: '/',
-            },
-          ],
-        },
-      ],
-      copyright: `Built with Docusaurus for local reading.`,
-    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
